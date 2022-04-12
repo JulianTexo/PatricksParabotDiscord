@@ -1,0 +1,107 @@
+/* TODO implement !dm command
+* TODO implement !warn command
+* 
+*/
+
+const discord = require('discord.js');
+const schedule = require('node-schedule');
+const checkstreaming = require('./checkstreaming');
+const fs = require('fs');
+require('dotenv').config()
+console.log(process.env)
+
+
+const bot = new discord.Client({partials: ['MESSAGE', 'REACTION', 'CHANNEL'],intents: [discord.Intents.FLAGS.GUILDS, discord.Intents.FLAGS.GUILD_PRESENCES, discord.Intents.FLAGS.GUILD_MESSAGES, discord.Intents.FLAGS.GUILD_MESSAGE_REACTIONS, discord.Intents.FLAGS.DIRECT_MESSAGES, discord.Intents.FLAGS.GUILD_MEMBERS]});
+
+const ppbGuild = '958400479258366002';
+const logChannel = '959364753829019648';
+const logChannelOnServer = '962729280469614652';
+const customLevelChannel = '959123181774462987';
+
+const prefix = '!'
+
+bot.commands = new discord.Collection();
+
+const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
+for(const file of commandFiles){
+    const command = require(`./commands/${file}`);
+
+    bot.commands.set(command.name, command)
+}
+
+
+bot.on('ready', function () {
+    bot.channels.cache.get(logChannel).send('Bot is online.');    
+    bot.channels.cache.get(logChannelOnServer).send("Registering Reaction Listener for completion roles.").then(sent => {
+        bot.commands.get('reactionrole').execute(sent, ["registerer"], discord, bot);
+        bot.commands.get('colorroles').execute(sent, ["registerer"], discord, bot);
+        bot.commands.get('submitLevel').execute(sent, ["registerer"], discord, bot);
+    });    
+    checkstreaming(bot);
+})
+
+bot.on('guildMemberAdd', function(){
+    memberCount += 1
+})
+
+function getMemberCount(){
+    return bot.guilds.cache.get(ppbGuild).memberCount
+}
+
+bot.on('messageCreate', async function(message){    
+    if(message.channel.type == 'DM' && !message.content.startsWith(prefix) && !message.author.bot){
+        message.reply('I\'m sorry I do not know what you want me to do. Please enter a valid command or type !help to get a list of commands.');
+    }
+    if(message.channel == customLevelChannel && message.attachments.size > 0){
+        fileName = [...message.attachments][0][1].attachment.split('/').pop().split('.')[0]
+        console.log(fileName)
+        await message.startThread({
+            name: `${message.author.username}'s ${fileName}`,
+            autoArchiveDuration: 60,
+            type: 'GUILD_PUBLIC_THREAD',
+        })
+        .then(threadChannel => console.log(threadChannel))
+        .catch(console.error);
+    }else{
+        const args = message.content.slice(prefix.length).split(/ +/);
+        const command = args.shift().toLowerCase();
+    if(!message.content.startsWith('!') || message.author.bot){
+        return;
+    }else{
+        if(command == 'reactionrole'){
+            bot.commands.get('reactionrole').execute(message, args, discord, bot);
+        }
+        if(command == 'colorroles'){
+            bot.commands.get('colorroles').execute(message, args, discord, bot);
+        }
+        if(command == 'addcolor'){
+            bot.commands.get('addColor').execute(message, args, discord, bot);  
+        }
+        if(command == 'submitlevel' ){
+            if(message.channel.type == 'DM'){
+                bot.commands.get('submitLevel').execute(message, args, discord, bot);
+            }else{
+                message.reply('Please only submit levels in direct messages to me. Your message and this message will be deleted in 10 seconds.').then(msg =>
+                setTimeout(() => {
+                    msg.delete();
+                    message.delete();
+                }, 10*1000)
+                )
+            }
+        }
+        if(command == 'help'){
+            message.reply('Possible commands are: \n !submitLevel <levelname>')
+        }
+        if(command == 'dm'){
+            bot.commands.get('dm').execute(message, args, discord, bot);
+        }
+    }
+    }
+})
+
+bot.login(process.env.BOT_TOKEN);
+
+bot.on('unhandledRejection', error => {
+    console.error('Unhandled promise rejection:', error);
+    bot.channels.cache.get(logChannel).send(error);
+})
