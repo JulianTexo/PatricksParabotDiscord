@@ -39,6 +39,7 @@ bot.on('ready', function () {
         bot.commands.get('reactionrole').execute(sent, ["registerer"], discord, bot);
         bot.commands.get('colorroles').execute(sent, ["registerer"], discord, bot);
         bot.commands.get('submitLevel').execute(sent, ["registerer"], discord, bot);
+        bot.commands.get('pronounRoles').execute(sent, ["registerer"], discord, bot);
     });    
     checkstreaming(bot);
 })
@@ -76,6 +77,9 @@ bot.on('messageCreate', async function(message){
         }
         if(command == 'colorroles'){
             bot.commands.get('colorroles').execute(message, args, discord, bot);
+        }
+        if(command == 'pronounroles'){
+            bot.commands.get('pronounRoles').execute(message, args, discord, bot);
         }
         if(command == 'addcolor'){
             bot.commands.get('addColor').execute(message, args, discord, bot);  
