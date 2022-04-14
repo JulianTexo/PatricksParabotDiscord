@@ -20,7 +20,7 @@ module.exports = {
             let embed = new Discord.MessageEmbed()
             .setColor('#f653a6')
             .setTitle('Choose your pronouns:')
-            .setDescription(`Select your personal pronouns so other users know how to refer to you! For more clarity consider putting them in your username as well. \n\n${sheHerEmote} she/her\n ${heHimEmote} he/him\n ${theyThemEmote} they/him\n ${otherEmote} other`);
+            .setDescription(`Select your personal pronouns so other users know how to refer to you! For more clarity consider putting them in your username as well. \n\n${sheHerEmote} she/her\n ${heHimEmote} he/him\n ${theyThemEmote} they/them\n ${otherEmote} other`);
             let messageEmbed = await message.channel.send({embeds: [embed]});
             messageEmbed.react(sheHerEmote);
             messageEmbed.react(heHimEmote);
