@@ -4,7 +4,11 @@ module.exports = {
     async execute(message, args, discord, bot){
         const guild = '958400479258366002';
         //let dUser = await bot.guilds.cache.get(guild).members.fetch(message.mentions.users.first());
-        let dUser = message.mentions.users.first();
+        if(message.mentions.users.first() != undefined){
+            let dUser = message.mentions.users.first();
+        }else{
+            let dUser = bot.guilds.cache.get(guild).members.cache.get(args[0]);
+        }
         if(!dUser) return message.channel.send("Can't find user!");
         let messageAuthor = bot.guilds.cache.get(guild).members.cache.get(message.author.id);
         console.log(dUser)

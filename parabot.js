@@ -1,7 +1,9 @@
 /* TODO implement !dm command (kinda done needs a few more tweaks possibly. Like testing out of own dms and stuff.)
 * TODO implement !warn command (Idea was to !warn as a response to a message and have multiple options like !warn delete !warn timeout etc.; Should put I line in a text file (maybe?) to keep track of who was warned?)
+* TODO implement !modmessage (which will allow anyone to send a message to a hidden modchannel so we can see requests to moderation team)
 * TODO implement github access for bot to automatically upload Daily Levels into a git? (is this really the best way or should the bot store all files locally?)
 * TODO implement pronoun roles (you probably know better which pronouns we need...possible to make it so that reactions are like mixeable to produce the role? (like He/Them by reaction with he and them emoji but also He/him by reacting with he and him emoji?))
+* TODO implement Level preview rendering
 */
 
 const discord = require('discord.js');
@@ -95,6 +97,13 @@ bot.on('messageCreate', async function(message){
         }
         if(command == 'dm'){
             bot.commands.get('dm').execute(message, args, discord, bot);
+        }
+        if(command == 'modmessage'){
+            bot.commands.get('modmessage').execute(message, args, discord, bot);
+        }
+        if(command == 'answer'){
+            bot.commands.get('answer').execute(message, args, discord, bot);
+
         }
     }
     }
