@@ -97,7 +97,7 @@ bot.on('messageCreate', async function(message){
             }
         }
         if(command == 'help'){
-            message.reply('Possible commands are: \n !submitLevel <levelname>')
+            message.reply('Possible commands are:\n !submitLevel <levelname>\n !modmessage <message>')
         }
         if(command == 'dm'){
             bot.commands.get('dm').execute(message, args, discord, bot);
