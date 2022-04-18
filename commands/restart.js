@@ -18,13 +18,12 @@ module.exports = {
         }else{
             if(args.join(' ') == 'git pull'){
                 bot.channels.cache.get(logChannel).send('Pulling git repository.')
-                await execWaitForOutput('git pull');
-            }else{
-                message.reply('Restarting bot!');
-                setTimeout(function () {                
-                    process.exit();
-                }, 5000);
+                await execWaitForOutput('git pull');                
             }
+            message.reply('Restarting bot!');
+            setTimeout(function () {                
+                process.exit();
+            }, 5000);
         }
 
         async function execWaitForOutput(command, execOptions = {}) {
