@@ -109,6 +109,9 @@ bot.on('messageCreate', async function(message){
             bot.commands.get('answer').execute(message, args, discord, bot);
 
         }
+        if(command == 'restart'){
+            bot.commands.get('restart').execute(message, args, discord, bot);
+        }
     }
     }
 })
