@@ -6,12 +6,12 @@ module.exports = {
     description: 'Sends a screenshot of a specific level',
 
     async execute(message, args, Discord, bot){
-        let worldName = args.join('_');
+        let worldName = args.join('_').toLowerCase();
 
         console.log("World Name: " + worldName);
 
         if (worldName in levels) {
-            message.reply(levels[worldName]);
+            message.reply("||https://i.imgur.com/" + levels[worldName] + ".png||");
         }
         else {
             message.reply("I\'m sorry I do not know this level.");
