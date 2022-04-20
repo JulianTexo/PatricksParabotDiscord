@@ -6,15 +6,18 @@ module.exports = {
     description: 'Sends a screenshot of a specific level',
 
     async execute(message, args, Discord, bot){
-        let worldName = args.join('_').toLowerCase();
-
-        console.log("World Name: " + worldName);
+        let worldName = args.filter(arg => arg != '||').join('_').replaceAll('||', '').toLowerCase();
 
         if (worldName in levels) {
-            message.reply("||https://i.imgur.com/" + levels[worldName] + ".png||");
+            let levelLink = 'https://i.imgur.com/' + levels[worldName] + '.png';
+
+            if (message.channel.type == 'DM')
+                message.reply(levelLink);
+            else
+                message.reply('||' + levelLink + '||');
         }
         else {
-            message.reply("I\'m sorry I do not know this level.");
+            message.reply('I\'m sorry I do not know this level.');
         }
     }
 }
