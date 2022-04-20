@@ -20,16 +20,25 @@ const ppbGuild = '958400479258366002';
 const logChannel = '959364753829019648';
 const logChannelOnServer = '962729280469614652';
 const customLevelChannel = '959123181774462987';
+const faqChannel = '966285081108938802';
 
 const prefix = '!'
 
 bot.commands = new discord.Collection();
+bot.actions = new discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
 for(const file of commandFiles){
     const command = require(`./commands/${file}`);
 
-    bot.commands.set(command.name, command)
+    bot.commands.set(command.name, command);
+}
+
+const actionFiles = fs.readdirSync(`./actions/`).filter(file => file.endsWith('.js'));
+for(const file of actionFiles){
+    const action = require(`./actions/${file}`);
+
+    bot.actions.set(action.name, action);
 }
 
 
@@ -44,17 +53,13 @@ bot.on('ready', function () {
     checkstreaming(bot);
 })
 
-bot.on('guildMemberAdd', function(){
-    memberCount += 1
-})
-
-function getMemberCount(){
-    return bot.guilds.cache.get(ppbGuild).memberCount
-}
-
 bot.on('messageCreate', async function(message){    
     if(message.channel.type == 'DM' && !message.content.startsWith(prefix) && !message.author.bot){
         message.reply('I\'m sorry I do not know what you want me to do. Please enter a valid command or type !help to get a list of commands.');
+    }
+    if(message.channel == faqChannel){
+        bot.actions.get('faqQuestionAdded').execute(message, args, discord, bot);
+        return;
     }
     if(message.channel == customLevelChannel && message.attachments.size > 0){
         fileName = [...message.attachments][0][1].attachment.split('/').pop().split('.')[0]
