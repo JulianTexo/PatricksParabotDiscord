@@ -119,6 +119,9 @@ bot.on('messageCreate', async function (message) {
                     if (command == 'remind') {
                         bot.commands.get('remind').execute(message, args, discord, bot);
                     }
+                    if (command == 'solution') {
+                        bot.commands.get('solution').execute(message, args, discord, bot);
+                    }
                 }
             }
         }
