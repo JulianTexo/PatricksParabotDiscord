@@ -9,7 +9,7 @@ module.exports = {
         let worldName = args.filter(arg => arg != '||').join('_').replaceAll('||', '').toLowerCase();
 
         if (worldName in levels) {
-            let levelLink = 'https://i.imgur.com/' + levels[worldName] + '.png';
+            let levelLink = 'https://i.imgur.com/' + levels[worldName]["screenshotImgurID"] + '.png';
 
             if (message.channel.type == 'DM')
                 message.reply(levelLink);
