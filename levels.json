@@ -1,366 +1,1483 @@
 {
-    "intro_1": "F0j0UfX",
-    "intro_2": "x7t7yQ1",
-    "intro_3": "JGyvVIn",
-    "intro_4": "S0GnCXn",
-    "intro_5": "b1PytIf",
-    "intro_6": "leZ6UtV",
-    "intro_7": "aIcr5sJ",
-    "intro_8": "Q3gnPSv",
-    "intro_9": "HNcK27P",
-    "enter_1": "lNvfhzO",
-    "enter_2": "MSQ7VLU",
-    "enter_3": "4kAu6eg",
-    "enter_4": "TWCMZLE",
-    "enter_5": "3tLwIz8",
-    "enter_6": "iDGGW2e",
-    "enter_7": "92fkxIz",
-    "enter_8": "WU2kdUJ",
-    "enter_9": "nULr0xw",
-    "enter_10": "MyzJ2HU",
-    "enter_11": "ypeIw2Q",
-    "enter_12": "GUotxBg",
-    "enter_13": "AgS5lc8",
-    "enter_14": "yjecFST",
-    "enter_15": "CO2T36O",
-    "enter_16": "dAQZQhz",
-    "enter_17": "4iZ0jms",
-    "enter_18": "E04XAuQ",
-    "empty_1": "yvSLIAM",
-    "empty_2": "OQ5gxDJ",
-    "empty_3": "Ap4OZKs",
-    "empty_4": "0ZsWDnU",
-    "empty_5": "StiuZy4",
-    "empty_6": "TXvJYCy",
-    "empty_7": "Iud9l8p",
-    "empty_8": "dd0408z",
-    "empty_9": "cibVxTu",
-    "empty_10": "v14zuck",
-    "empty_11": "o5tR2uN",
-    "empty_12": "E5DjGKH",
-    "empty_13": "PG9UYKW",
-    "empty_14": "i6PV2V4",
-    "eat_1": "QALwTJ6",
-    "eat_2": "R5PRyh8",
-    "eat_3": "qcXi4pc",
-    "eat_4": "iHx2i6c",
-    "eat_5": "N0wgMzG",
-    "eat_6": "KF66NpH",
-    "eat_7": "qqfxd7M",
-    "eat_8": "cJ5esrk",
-    "eat_9": "U25DkKe",
-    "eat_10": "qkgM5ly",
-    "eat_11": "XLXyN2z",
-    "eat_12": "SFsyfdr",
-    "eat_13": "NRCyLjI",
-    "reference_1": "mngQsLg",
-    "reference_2": "POM5Aiu",
-    "reference_3": "FLiKueI",
-    "reference_4": "XrU7KId",
-    "reference_5": "Sq9wrdt",
-    "reference_6": "5hETrKa",
-    "reference_7": "gA6ny5q",
-    "reference_8": "x0uRehj",
-    "reference_9": "PEWfyTI",
-    "reference_10": "QlWGhfG",
-    "reference_11": "cHirCzP",
-    "reference_12": "paeoq3M",
-    "swap_1": "5C9TVG8",
-    "swap_2": "PFcWv2F",
-    "swap_3": "vH2ATgQ",
-    "swap_4": "wLs5TQS",
-    "swap_5": "qm451T8",
-    "center_1": "rMq5bUA",
-    "center_2": "1uHF80i",
-    "center_3": "KSygO04",
-    "center_4": "9Ben4JP",
-    "center_5": "TvwqjYL",
-    "center_6": "GZVb5qR",
-    "center_7": "QqdqmZu",
-    "center_8": "T5wfAQU",
-    "center_9": "Z1vJJ2u",
-    "center_10": "GTUsmNe",
-    "center_11": "AZtveEY",
-    "center_12": "fPeQQj5",
-    "center_13": "FWZmWSf",
-    "center_14": "fFQKnzy",
-    "center_15": "tBsp7HJ",
-    "center_16": "yaIFNLa",
-    "clone_1": "G7eflhx",
-    "clone_2": "Te7Ty9C",
-    "clone_3": "sE8YeMi",
-    "clone_4": "ZSF6zwf",
-    "clone_5": "vIhVgDF",
-    "clone_6": "JYq9Uaq",
-    "clone_7": "ktXOijD",
-    "clone_8": "xcAollX",
-    "clone_9": "SpuTUfd",
-    "clone_10": "u1UFVGa",
-    "clone_11": "i6I1r0A",
-    "clone_12": "RXxVRpd",
-    "clone_13": "UIV8o4w",
-    "clone_14": "2zK03I3",
-    "clone_15": "9soF55Q",
-    "clone_16": "6dYopnK",
-    "clone_17": "2tDkP3u",
-    "clone_18": "hMeHmP0",
-    "clone_19": "LoN5XeX",
-    "clone_20": "yDyDzc1",
-    "clone_21": "kTHaZji",
-    "clone_22": "6vEcbi7",
-    "clone_23": "1YAh15z",
-    "clone_24": "9QxuYpC",
-    "clone_25": "WzldapV",
-    "transfer_1": "YxNmTvK",
-    "transfer_2": "zjekLPx",
-    "transfer_3": "ccz4z0U",
-    "transfer_4": "25pnEj0",
-    "transfer_5": "0nHQ4st",
-    "transfer_6": "jmYUGA5",
-    "transfer_7": "WbhEZpZ",
-    "transfer_8": "nVBbVIy",
-    "transfer_9": "KQUrLxx",
-    "transfer_10": "XfPzOvH",
-    "transfer_11": "LLO0CRA",
-    "transfer_12": "sY0AhsK",
-    "transfer_13": "EmrNZKP",
-    "transfer_14": "hZTYg2v",
-    "transfer_15": "PmuI3PY",
-    "transfer_16": "CvKle3R",
-    "transfer_17": "9spwUUs",
-    "transfer_18": "FpnazSo",
-    "transfer_19": "eWkoZOe",
-    "transfer_20": "ijvchZ3",
-    "transfer_21": "jg0tYWe",
-    "transfer_22": "qOc2YeP",
-    "transfer_23": "POzleuc",
-    "transfer_24": "SjbMKEW",
-    "transfer_25": "lcJo7uv",
-    "transfer_26": "6KcFFiy",
-    "transfer_27": "qnMdLDL",
-    "transfer_28": "CjwHnnG",
-    "transfer_29": "CEmkGEc",
-    "open_1": "ouXgCt9",
-    "open_2": "MyQW5Y8",
-    "open_3": "lRz3Zyr",
-    "open_4": "oOAPOAn",
-    "open_5": "UOECest",
-    "open_6": "nBz2NEI",
-    "open_7": "kOb1V98",
-    "open_8": "0oHSt0o",
-    "open_9": "PtH6lzx",
-    "open_10": "h7MHGmI",
-    "open_11": "ILHmrXe",
-    "open_12": "1tfEezK",
-    "flip_1": "7woj5cy",
-    "flip_2": "T3LJzDq",
-    "flip_3": "2pfG45E",
-    "flip_4": "WjPNRb3",
-    "flip_5": "sBRORpq",
-    "flip_6": "ZYpHG97",
-    "flip_7": "S46manj",
-    "flip_8": "OTg5twv",
-    "flip_9": "Il9v116",
-    "flip_10": "DVeFApc",
-    "flip_11": "FUlHxaz",
-    "flip_12": "vx8vArZ",
-    "flip_13": "koTyj5o",
-    "flip_14": "CxIlot2",
-    "flip_15": "hOWdUpb",
-    "flip_16": "9eJdJqR",
-    "flip_17": "wPSohOQ",
-    "cycle_1": "fxaVqdq",
-    "cycle_2": "ySp9B2G",
-    "cycle_3": "wmCikcn",
-    "cycle_4": "ngyMOKb",
-    "cycle_5": "1hxqr0l",
-    "cycle_6": "3p1ZaFP",
-    "cycle_7": "17ExNn4",
-    "cycle_8": "H0ammmi",
-    "cycle_9": "QKzEbiH",
-    "cycle_10": "HC8D9KL",
-    "cycle_11": "2NMHfyB",
-    "cycle_12": "uTc8gU6",
-    "cycle_13": "rRmt9rR",
-    "cycle_14": "sfWFXle",
-    "cycle_15": "NttCKCK",
-    "cycle_16": "wqhBuNm",
-    "cycle_17": "eRKEc3d",
-    "cycle_18": "CLlfEDG",
-    "player_1": "pLkoJu4",
-    "player_2": "ahYsfgr",
-    "player_3": "3H5GeXQ",
-    "player_4": "1EgFGUv",
-    "player_5": "S52T62I",
-    "player_6": "ckTaY2E",
-    "player_7": "QQUsL52",
-    "player_8": "pEAGNJL",
-    "player_9": "1PE4ivq",
-    "player_10": "iEY5VgV",
-    "player_11": "Jr6faB3",
-    "player_12": "pbehbWk",
-    "player_13": "6RrufTr",
-    "player_14": "jRvq7Pf",
-    "player_15": "6OR84ZT",
-    "player_16": "wZF7At5",
-    "player_17": "nr5ysPP",
-    "player_18": "l0wAFDm",
-    "player_19": "n6ugYlV",
-    "player_20": "whh9Ajn",
-    "player_21": "tBah8St",
-    "player_22": "KWsIBCA",
-    "player_23": "BmVeZK5",
-    "player_24": "x2Ct2PU",
-    "possess_1": "9v206B3",
-    "possess_2": "83k5J0P",
-    "possess_3": "JSw3lY4",
-    "possess_4": "kXSgVYr",
-    "possess_5": "14XYcQF",
-    "possess_6": "WVYif1D",
-    "possess_7": "SwtmbX3",
-    "possess_8": "EafkWM6",
-    "possess_9": "aG428ik",
-    "possess_10": "vof0ztX",
-    "possess_11": "I8BaBec",
-    "possess_12": "yThyAeW",
-    "possess_13": "xvFemVj",
-    "possess_14": "FwVSxZ9",
-    "possess_15": "LtFzx7F",
-    "possess_16": "e41AIEX",
-    "possess_17": "3gvikUs",
-    "possess_18": "aCxIOfG",
-    "possess_19": "EE89KMy",
-    "possess_20": "RhPqoBG",
-    "possess_21": "3BKcRnk",
-    "possess_22": "D9vsDs9",
-    "wall_1": "3HCKphi",
-    "wall_2": "wULgmVF",
-    "wall_3": "OCa7itR",
-    "wall_4": "FhxxTkF",
-    "wall_5": "RhpwKo7",
-    "wall_6": "6Hbnx4H",
-    "wall_7": "mBu4IZ9",
-    "wall_8": "sMgMRu9",
-    "wall_9": "uuAdzEv",
-    "wall_10": "dJgTtVv",
-    "wall_11": "sMWeEeD",
-    "wall_12": "c6IrcmY",
-    "wall_13": "Su49PvF",
-    "wall_14": "9FU8PI5",
-    "wall_15": "JXX3SNO",
-    "infinite_exit_1": "T46VJBB",
-    "infinite_exit_2": "qaP2eN6",
-    "infinite_exit_3": "M7bBpOt",
-    "infinite_exit_4": "qISsgSE",
-    "infinite_exit_5": "cRKChuN",
-    "infinite_exit_6": "nD9KqHU",
-    "infinite_exit_7": "TKfNIVT",
-    "infinite_exit_8": "NIG237i",
-    "infinite_exit_9": "OkmlhGZ",
-    "infinite_exit_10": "qvgft1J",
-    "infinite_exit_11": "ryg3k2G",
-    "infinite_exit_12": "hbRNZKX",
-    "infinite_exit_13": "XwctAzr",
-    "infinite_exit_14": "bAwJkFT",
-    "infinite_exit_15": "CYLO4oc",
-    "infinite_exit_16": "RpfL07R",
-    "infinite_exit_17": "P2FFsQq",
-    "infinite_exit_18": "sGIaEnY",
-    "infinite_enter_1": "o5y0Gal",
-    "infinite_enter_2": "c9RRtLI",
-    "infinite_enter_3": "Cui3yu9",
-    "infinite_enter_4": "rCvT9mf",
-    "infinite_enter_5": "kUJ3mhu",
-    "infinite_enter_6": "IjWXNgD",
-    "infinite_enter_7": "1gD390T",
-    "infinite_enter_8": "wexDcex",
-    "infinite_enter_9": "FFJlwzi",
-    "infinite_enter_10": "KoUuQTQ",
-    "infinite_enter_11": "jMgwnqo",
-    "infinite_enter_12": "0agisJR",
-    "infinite_enter_13": "xM6FdwR",
-    "infinite_enter_14": "8BzOVe7",
-    "infinite_enter_15": "7vxVQeu",
-    "infinite_enter_16": "rnnwsfA",
-    "infinite_enter_17": "WrHbL4d",
-    "infinite_enter_18": "Zq9KuX0",
-    "infinite_enter_19": "XbX76FC",
-    "infinite_enter_20": "LuGg7ir",
-    "multi_infinite_1": "CoqnRvJ",
-    "multi_infinite_2": "GF5bNTI",
-    "multi_infinite_3": "IOAMyUw",
-    "multi_infinite_4": "cAK083v",
-    "multi_infinite_5": "v3bSX1S",
-    "multi_infinite_6": "e48Y34q",
-    "multi_infinite_7": "yIf2Hmc",
-    "multi_infinite_8": "o89CJf8",
-    "multi_infinite_9": "Zdu86qw",
-    "multi_infinite_10": "ysHL6Wu",
-    "multi_infinite_11": "60ZAUt2",
-    "challenge_1": "R1dFRx7",
-    "challenge_2": "V3SVUh5",
-    "challenge_3": "JLwcKD8",
-    "challenge_4": "JlhLNdY",
-    "challenge_5": "OnHLGki",
-    "challenge_6": "m6DrZoj",
-    "challenge_7": "rzMDETn",
-    "challenge_8": "8byPDK7",
-    "challenge_9": "XUFZ1xs",
-    "challenge_10": "OqGSKNv",
-    "challenge_11": "DeV6IA7",
-    "challenge_12": "4uScwMO",
-    "challenge_13": "HTx4GUK",
-    "challenge_14": "wGvOP8i",
-    "challenge_15": "zJ68ibg",
-    "challenge_16": "W1QyptS",
-    "challenge_17": "l9WotXb",
-    "challenge_18": "JkNTqdV",
-    "challenge_19": "Pd5IO38",
-    "challenge_20": "q32fdsG",
-    "challenge_21": "byXbwPy",
-    "challenge_22": "O9x65Si",
-    "challenge_23": "Khmcf4i",
-    "challenge_24": "PJ032Ep",
-    "challenge_25": "4AmHlnL",
-    "challenge_26": "7s1ZOut",
-    "challenge_27": "kTskeI5",
-    "challenge_28": "FeKXuss",
-    "challenge_29": "C7oAduB",
-    "challenge_30": "5eb9Uvh",
-    "challenge_31": "0dk6E9V",
-    "challenge_32": "0QmvExj",
-    "challenge_33": "JqNbcew",
-    "challenge_34": "ZftNLoO",
-    "challenge_35": "Mj58QR7",
-    "challenge_36": "f9nwjJV",
-    "challenge_37": "nFn6cBm",
-    "challenge_38": "OmE1F9D",
-    "gallery_1": "W4N7Gsl",
-    "gallery_2": "hoGFnvz",
-    "gallery_3": "Je4hzEl",
-    "priority_1": "U6x7Zp9",
-    "priority_2": "lpzyFLU",
-    "priority_3": "GzH1hWF",
-    "priority_4": "yFICJRW",
-    "priority_5": "IfX24bG",
-    "priority_6": "T7a2EH6",
-    "priority_7": "wF0JtQN",
-    "priority_8": "MO7lXpy",
-    "priority_9": "qQULmJA",
-    "extrude_1": "AdobIKX",
-    "extrude_2": "I80WIiE",
-    "extrude_3": "fFR797l",
-    "extrude_4": "OhvrkIw",
-    "extrude_5": "EDxT5V6",
-    "extrude_6": "f6dVlss",
-    "extrude_7": "DpQNjQj",
-    "extrude_8": "QF96ZBv",
-    "inner_push_1": "V04uN6r",
-    "inner_push_2": "RIiqPS4",
-    "inner_push_3": "qhcT33O",
-    "inner_push_4": "1OWfALH",
-    "inner_push_5": "Ja8AstJ",
-    "inner_push_6": "bD88uHy",
-    "inner_push_7": "1pbiOdt",
-    "inner_push_8": "1EbyB2O"
+    "center": {"screenshotImgurID": "Fjv3CUr"},
+    "challenge": {"screenshotImgurID": "sMJu8R3"},
+    "clone": {"screenshotImgurID": "HehGf6S"},
+    "cycle": {"screenshotImgurID": "gc308Uq"},
+    "eat": {"screenshotImgurID": "4rjoE5y"},
+    "empty": {"screenshotImgurID": "GX02b59"},
+    "enter": {"screenshotImgurID": "EKsv43U"},
+    "extrude": {"screenshotImgurID": "PzDYI83"},
+    "flip": {"screenshotImgurID": "wPBpYwM"},
+    "gallery": {"screenshotImgurID": "DAxaLG1"},
+    "infinite enter": {"screenshotImgurID": "4DSrM9x"},
+    "infinite exit": {"screenshotImgurID": "o30vIUS"},
+    "inner push": {"screenshotImgurID": "3s0WXIl"},
+    "intro": {"screenshotImgurID": "iRJekbJ"},
+    "multi infinite": {"screenshotImgurID": "5gmkvSe"},
+    "open": {"screenshotImgurID": "zMjSTjU"},
+    "player": {"screenshotImgurID": "aPmqOZF"},
+    "possess": {"screenshotImgurID": "yeiZWEg"},
+    "priority": {"screenshotImgurID": "TD4sSfg"},
+    "reception": {"screenshotImgurID": "SD3FZnB"},
+    "reference": {"screenshotImgurID": "96rfrNW"},
+    "swap": {"screenshotImgurID": "ckqIpfa"},
+    "transfer": {"screenshotImgurID": "b5nta9t"},
+    "wall": {"screenshotImgurID": "EsYhICI"},
+
+    "intro_1": {
+        "screenshotImgurID": "F0j0UfX",
+        "solution": "UURRR DDUUU LLLL"
+    },
+    "intro_2": {
+        "screenshotImgurID": "x7t7yQ1",
+        "solution": "LLUUU URRDD DLDRR URDLD LLR"
+    },
+    "intro_3": {
+        "screenshotImgurID": "JGyvVIn",
+        "solution": "UUURR DDDLD RRDRR ULLLL ULLDD\nRUUUL UR"
+    },
+    "intro_4": {
+        "screenshotImgurID": "S0GnCXn",
+        "solution": "RUUUL URRRR RRDRU UUUDD DDDDL\nLLL"
+    },
+    "intro_5": {
+        "screenshotImgurID": "b1PytIf",
+        "solution": "DDLLL LULLD RRURD DRRRU U"
+    },
+    "intro_6": {
+        "screenshotImgurID": "leZ6UtV",
+        "solution": "UULLD DDLLR RURDD DDLLR RRRRU\nURRDD LLUUU URULL UUDRD LDDRR"
+    },
+    "intro_7": {
+        "screenshotImgurID": "aIcr5sJ",
+        "solution": "RRRUU LLLDL LUURR DDDLL"
+    },
+    "intro_8": {
+        "screenshotImgurID": "Q3gnPSv",
+        "solution": "DDRRD RUUUU DLURR URRDD LDDDD\nLLL"
+    },
+    "intro_9": {
+        "screenshotImgurID": "HNcK27P",
+        "solution": "ULLDD LDRRR RDRRU LLLRR R"
+    },
+    "enter_1": {
+        "screenshotImgurID": "lNvfhzO",
+        "solution": "LLLDD RURUL LULDD DDDRD LLULL\nDRRRR RUR"
+    },
+    "enter_2": {
+        "screenshotImgurID": "MSQ7VLU",
+        "solution": "LUUUU ULDLD RURDD DRDLU UUUUR\nDRDLU LDDDR DLLLL ULLDR RRRRR\nRUR"
+    },
+    "enter_3": {
+        "screenshotImgurID": "4kAu6eg",
+        "solution": "LUULU RDDDD DLDRU URRRD RULUU\nULDRD LLLLL L"
+    },
+    "enter_4": {
+        "screenshotImgurID": "TWCMZLE",
+        "solution": "RUULL LRDDD LUURU LLLLL"
+    },
+    "enter_5": {
+        "screenshotImgurID": "3tLwIz8",
+        "solution": "ULDRR RDLLD LURUL LULLD RRRRD\nRRULD LUUDD DL"
+    },
+    "enter_6": {
+        "screenshotImgurID": "iDGGW2e",
+        "solution": "LULLU RRDRR RRDLL DLUUD RUULD\nDDRRD"
+    },
+    "enter_7": {
+        "screenshotImgurID": "92fkxIz",
+        "solution": "DDLLL URULL UURDR DLLLL LLDLU\nUDLUR RURDL DRRRR RRDDR RR"
+    },
+    "enter_8": {
+        "screenshotImgurID": "WU2kdUJ",
+        "solution": "LUURR URDDR RULUL DDRDL ULLDD\nRUUUU LURRR RRRRU UDDLL LLLLU"
+    },
+    "enter_9": {
+        "screenshotImgurID": "nULr0xw",
+        "solution": "RUUUR DDDRD LLRRD LLUUU UULDD\nDDLLR RRDRU UULUR RRUU"
+    },
+    "enter_10": {
+        "screenshotImgurID": "MyzJ2HU",
+        "solution": "URRDU RRDDR DLRDL LLLDD LUUUL\nURLUR LURDD DDDDR RUDRR RULLL\nDLUUU URR"
+    },
+    "enter_11": {
+        "screenshotImgurID": "ypeIw2Q",
+        "solution": "RRRRR RRRDD RRUUU DDDLL UUUUR\nRRRUL LULDD DUURR RDLLL LLLLL\nLLLLL UUL"
+    },
+    "enter_12": {
+        "screenshotImgurID": "GUotxBg",
+        "solution": "DDRRR LLDDR DDUUU UUULL LUUUL\nLRRRR RUU"
+    },
+    "enter_13": {
+        "screenshotImgurID": "AgS5lc8",
+        "solution": "DDDDU UULUR RUUUR RRRRR DDLLL\nL"
+    },
+    "enter_14": {
+        "screenshotImgurID": "yjecFST",
+        "solution": "RRDDD ULLLL LLLLR RRRUU"
+    },
+    "enter_15": {
+        "screenshotImgurID": "CO2T36O",
+        "solution": "ULLDD DURRR DRRRL ULLLL LDDDU\nUURRR RRDRR"
+    },
+    "enter_16": {
+        "screenshotImgurID": "dAQZQhz",
+        "solution": "LUUUL URRRL LLLUU RRRUU DRDLL\nLULDD DLDRR LUUUU LLUUR RRUUR\nDLLLL UL"
+    },
+    "enter_17": {
+        "screenshotImgurID": "4iZ0jms",
+        "solution": "UURRR RRRUU RRRRR RUULL UUUUL\nURRRR RURRR DDDRR DDDDL DDRUU\nUUUDL LLLLD DDDDR RU"
+    },
+    "enter_18": {
+        "screenshotImgurID": "E04XAuQ",
+        "solution": "UURUL ULLDR RRRLL UURDL DDDDD\nRDDRU LLLDL URULU LDDLD DDR"
+    },
+    "empty_1": {
+        "screenshotImgurID": "yvSLIAM",
+        "solution": "UURDR RLLDD UULLR DRULL"
+    },
+    "empty_2": {
+        "screenshotImgurID": "OQ5gxDJ",
+        "solution": "DLLLU URRRR ULLLL DLUUU DLURR\nRURDD"
+    },
+    "empty_3": {
+        "screenshotImgurID": "Ap4OZKs",
+        "solution": "LLLLD LUUUD DDDDU UUURR RR"
+    },
+    "empty_4": {
+        "screenshotImgurID": "0ZsWDnU",
+        "solution": "LDLDR UURRR DLULD DDLDD RUUD"
+    },
+    "empty_5": {
+        "screenshotImgurID": "StiuZy4",
+        "solution": "DLDRR DRULU RRURD LLDDR ULURU\nRDLLL URRDR DLDDR UURRU"
+    },
+    "empty_6": {
+        "screenshotImgurID": "TXvJYCy",
+        "solution": "UULLD DDDLL LRRRR UUUUR DDDDR\nRRLLU LDLDD RUUUU U"
+    },
+    "empty_7": {
+        "screenshotImgurID": "Iud9l8p",
+        "solution": "RDRUU URULD DLLLU RDRUU UURRR\nLLLLL DRRRL LLUUU RRRLL DD"
+    },
+    "empty_8": {
+        "screenshotImgurID": "dd0408z",
+        "solution": "LLLRU UUDRR RUUDL RRLDD DD"
+    },
+    "empty_9": {
+        "screenshotImgurID": "cibVxTu",
+        "solution": "DLLLD RDRUU UDLLU RDDDR RURUL\nDLUUU LURLU RURDD DDUUU RDLUL\nLDDRU UDDDD DD"
+    },
+    "empty_10": {
+        "screenshotImgurID": "v14zuck",
+        "solution": "LUURD RRDLL LDLUU LURRD RUUUR\nULDLL UDRRU LDLUL URRRR RRRDR\nULUUR DDDL"
+    },
+    "empty_11": {
+        "screenshotImgurID": "o5tR2uN",
+        "solution": "RDDRD LUUUL DDRDL LLLLL LUUDD\nDDDUU UUURU LLLLR DDDR"
+    },
+    "empty_12": {
+        "screenshotImgurID": "E5DjGKH",
+        "solution": "UUUUR LUUUD DDRDL LLUUL LURDR\nUUUUL URRUR DDLD"
+    },
+    "empty_13": {
+        "screenshotImgurID": "PG9UYKW",
+        "solution": "LUUUU DDLLL LRDDD RRDDR DLULD\nDUUUU LUURR ULLDD DRRRR"
+    },
+    "empty_14": {
+        "screenshotImgurID": "i6PV2V4",
+        "solution": "LLLDR RURDD DDUUU RRRUL RUULD\nLLLLL URRDR UUUDD RRRDL LRRDD\nLLUDR URULD DR"
+    },
+    "eat_1": {
+        "screenshotImgurID": "QALwTJ6",
+        "solution": "RRRDL DLUUR RULLL"
+    },
+    "eat_2": {
+        "screenshotImgurID": "R5PRyh8",
+        "solution": "LUULU RDDDR RRULD LUUUD RURUL\nLLRRR"
+    },
+    "eat_3": {
+        "screenshotImgurID": "qcXi4pc",
+        "solution": "LDRDR RDLDL UURRU LULLD DRRUL\nLULDD RRDDL URULU LDDUU U"
+    },
+    "eat_4": {
+        "screenshotImgurID": "iHx2i6c",
+        "solution": "DRRUR DLLLD RRURD DDDDR RDRLU\nUUUUU U"
+    },
+    "eat_5": {
+        "screenshotImgurID": "N0wgMzG",
+        "solution": "LDDRR DRUUU LURRR LDDDD DDLDU\nLLL"
+    },
+    "eat_6": {
+        "screenshotImgurID": "KF66NpH",
+        "solution": "DLDRR UUURD DDLDR LDDRR UUULU\nRRLDD DDLDU LLL"
+    },
+    "eat_7": {
+        "screenshotImgurID": "qqfxd7M",
+        "solution": "RRRRD DLULL LDULL LDRRU RDURR\nRRDLL LULDU LLLDR RURDU RRDLU\nLDDDD DDLDD RR"
+    },
+    "eat_8": {
+        "screenshotImgurID": "cJ5esrk",
+        "solution": "ULLLD RRURD DDDUU RRRLL DLULD\nDURUU UUURU LDLUR RULLL LULLD\nDDUUU RDDUR RRRRR RDDDR RLULD\nDUUUR RRRRD DDDDD LLDLU UUU"
+    },
+    "eat_9": {
+        "screenshotImgurID": "U25DkKe",
+        "solution": "RRRDD DRURU LLLLD DRUUR ULLUL\nDLDRURD DRDLD LUDLU RRDRU UURRU"
+    },
+    "eat_10": {
+        "screenshotImgurID": "qkgM5ly",
+        "solution": "RUURD DRDLL DLUUU UDDLU RRURD\nDDLDR LLL"
+    },
+    "eat_11": {
+        "screenshotImgurID": "XLXyN2z",
+        "solution": "RDDDL ULURR RLDDR ULURR DRULL\nLUURD LDRRD RUUUD DRULL LDLUL\nURRUR DDDLL LLD"
+    },
+    "eat_12": {
+        "screenshotImgurID": "SFsyfdr",
+        "solution": "DRURD DDULL DDLLU DRDRU LLLUR\nRDRUL URURD DDLLL LUURU RDDDD\nRURRD LLULD DD"
+    },
+    "eat_13": {
+        "screenshotImgurID": "NRCyLjI",
+        "solution": "URRRR UUUUU ULLLL LLDLL URRRR\nRRRLL LDRUU URUUL DDDDD DLDDD\nR"
+    },
+    "reference_1": {
+        "screenshotImgurID": "mngQsLg",
+        "solution": "LUULU LDDDU RRDLU LDDDU URRRR\nURRLL LUU"
+    },
+    "reference_2": {
+        "screenshotImgurID": "POM5Aiu",
+        "solution": "LLLLU RRDRU UDDRD LLLUL DRRRR\nDLLLU LDDUU UURRR UULDR RRDR"
+    },
+    "reference_3": {
+        "screenshotImgurID": "FLiKueI",
+        "solution": "LDDDR UULUR RRDRU UDLLL LUUUR\nUULUR DDDDL DRURD DDLLL LLLLD"
+    },
+    "reference_4": {
+        "screenshotImgurID": "XrU7KId",
+        "solution": "ULLLD RRDRU URULL DDDLL LLULL\nURDUU UUUDD DLDRR URDRD D"
+    },
+    "reference_5": {
+        "screenshotImgurID": "Sq9wrdt",
+        "solution": "LLDLU UULUR RRLDL DRRDR URULL\nLLULD DRRRU UUULU ULL"
+    },
+    "reference_6": {
+        "screenshotImgurID": "5hETrKa",
+        "solution": "UURRD DLDRR LLDRR DRUUU UUDDD\nDRULD LUULU RURRD DRRLU LDLDR\nDDL"
+    },
+    "reference_7": {
+        "screenshotImgurID": "gA6ny5q",
+        "solution": "LDDDD LUDRR RULLD LUUUD DLURR\nRRRLL LLLUL LDRUU DDDDU UUDDL\nLLLLL ULLUR DDDDD DDDLL LLUU"
+    },
+    "reference_8": {
+        "screenshotImgurID": "x0uRehj",
+        "solution": "DLLLL DLLLL LDLLL LLULL LLDUR\nRDRRR RRRRU RRDLU RRURR RRDLU\nRRURR RRDLU RRURR RRDLU RRRU"
+    },
+    "reference_9": {
+        "screenshotImgurID": "PEWfyTI",
+        "solution": "RRUUD LLDDD DRULR RRDDD LLLDL\nUUUUU DDDLL URDDD LLLDR RDRUU\nUUUUD DDDLL DDDDD LRUUU UULL"
+    },
+    "reference_10": {
+        "screenshotImgurID": "QlWGhfG",
+        "solution": "RRRRR UURRR RRRDL LLDLU LRRUL\nLRDDD DRRRR ULLLL LDLUU ULLLL\nDLURD DDDDR DDLRU ULLDD DDRDL\nDLUUL URDDD RDDDD LDDDR DLULD\nDDULD RURUU UUUUU RUUDD DDLLD\nDRUUU URUUU UUUU"
+    },
+    "reference_11": {
+        "screenshotImgurID": "cHirCzP",
+        "solution": "DLLLU RRRRD DDRUL LLDDR DDULL\nUUUUR RRDRR LLDLU ULURD RUUUD\nRRDRL ULLLL LUUUR UUDDD DDRDL\nLLLLU LDDLD"
+    },
+    "reference_12": {
+        "screenshotImgurID": "paeoq3M",
+        "solution": "DLLLD RRDRU UDDRU URULL LRRUL\nDDDRD LULDD UUURU ULUUL DLLRU\nUUURU ULUUR DLLLL UULLL"
+    },
+    "swap_1": {
+        "screenshotImgurID": "5C9TVG8",
+        "solution": "RDDDR DLULL LURUR DDDDR DLLLL\nLLLLD DRRDR UULUR RRRUR DDRDL\nLURRR"
+    },
+    "swap_2": {
+        "screenshotImgurID": "PFcWv2F",
+        "solution": "DDDRR ULLLL LDRRU RDDUR RURUL\nLLLDL URRRR RULLL LLLLD LUUUU\nUUULL DDDLD RRURD DDRDL DLUUL\nURRDR UDRRL LLLLD D"
+    },
+    "swap_3": {
+        "screenshotImgurID": "vH2ATgQ",
+        "solution": "DRRRU LDLUU LLURR RRRRL LLLUR\nRDDDR DLLUL DDUUU URRRR RDRUU\nUUUUR RDDDR DLLUL DDDLD RL"
+    },
+    "swap_4": {
+        "screenshotImgurID": "wLs5TQS",
+        "solution": "UUURU ULDDD RDLDL LUUUR UULDD\nDDLLD RDRRU DLLUR DRUUU URUUL\nLLDDL LLLUR RRDRU LURRR DDDUU\nRRULU LDRDL LRDDD UUUUU LLLDD\nRRRDR URULL LLLDL URULL LRRRR\nDRRDL UULUR URDDD DDDDD"
+    },
+    "swap_5": {
+        "screenshotImgurID": "qm451T8",
+        "solution": "DRDRU RUUUL LDDLL LDRRR RLLUU\nULDLD RRRRR LDDRU LURRR LRURR\nRRDDR DLLLU LLUUR DURRR DLULL\nDURRD LULDD DDRDL RDLRD LDLUU\nUUULU RDRUU ULLDR DDDDR UUULD\nRRDRU URULL LLLLD DDDLU RDRUU\nUR"
+    },
+    "center_1": {
+        "screenshotImgurID": "rMq5bUA",
+        "solution": "RRRRR RUULL LLLUL LDRRR RRDDR"
+    },
+    "center_2": {
+        "screenshotImgurID": "1uHF80i",
+        "solution": "LLLLL ULDRD DRRRU RLLLL UL"
+    },
+    "center_3": {
+        "screenshotImgurID": "KSygO04",
+        "solution": "DRRUU LURRR RRURD DDDLD DRUUU\nRULLL LLLLL"
+    },
+    "center_4": {
+        "screenshotImgurID": "9Ben4JP",
+        "solution": "LLLLL LLULD DDRRR RRULD DDLDR\nRRRDR UURRD"
+    },
+    "center_5": {
+        "screenshotImgurID": "TvwqjYL",
+        "solution": "UULLL LDDDD DDDLD RRRRU RDLDD\nRUUUR RD"
+    },
+    "center_6": {
+        "screenshotImgurID": "GZVb5qR",
+        "solution": "DDRRR LLLLR RRRUU UUUUR UULDD\nUUUUR RRDR"
+    },
+    "center_7": {
+        "screenshotImgurID": "QqdqmZu",
+        "solution": "LDDDU UUULD RDDDR RRRRR LUUUU\nDDLDR UUURR RRRDR UULUR DR"
+    },
+    "center_8": {
+        "screenshotImgurID": "T5wfAQU",
+        "solution": "RDDLU RULLL LLLUU RUDDL DRRUR\nLLLLD DRRRR R"
+    },
+    "center_9": {
+        "screenshotImgurID": "Z1vJJ2u",
+        "solution": "LDDRR RRURR RDDLU UUULU UURUR\nDDRDL LLLL"
+    },
+    "center_10": {
+        "screenshotImgurID": "GTUsmNe",
+        "solution": "DDRRU UURRU UULLU LDLLD DRDDL\nLUURR RRDDR"
+    },
+    "center_11": {
+        "screenshotImgurID": "AZtveEY",
+        "solution": "LLDRR RDRUL LUUUR DLDRR RURDD\nLDRLL LLLLU RRRUR DLDRR URDLD\nRLLUR DDRRR"
+    },
+    "center_12": {
+        "screenshotImgurID": "fPeQQj5",
+        "solution": "UULDD DDURD LLLUL UUDDD DRRRL\nLLLLL LLURD RUUUU R"
+    },
+    "center_13": {
+        "screenshotImgurID": "FWZmWSf",
+        "solution": "RDDUL LLDRR URDRD LLLUL DLDRU\nRLDDD ULURR RRURD DDDLD DRRRL\nLLURR UUUUU UR"
+    },
+    "center_14": {
+        "screenshotImgurID": "fFQKnzy",
+        "solution": "LLDUU LLDDR RRDLL LULLD DRULU\nRDRRR UUULD DRDLU LDDDR DLUUL\nLLDRR RLLUR RURR"
+    },
+    "center_15": {
+        "screenshotImgurID": "tBsp7HJ",
+        "solution": "RRRDD LLURU DDDUU ULDRR DRRRU\nLLLLL LUURU R"
+    },
+    "center_16": {
+        "screenshotImgurID": "yaIFNLa",
+        "solution": "RRDDR RULDL URULL LLLLL LUULL\nDRRDL ULDDU RRRRR RRRRR DRRUR\nLDLLU LLLLL LLUUR"
+    },
+    "clone_1": {
+        "screenshotImgurID": "G7eflhx",
+        "solution": "DDDDD RRUUU URRUR DDDDU UULLL\nDDDDL LUUUL U"
+    },
+    "clone_2": {
+        "screenshotImgurID": "Te7Ty9C",
+        "solution": "UULLL LDDUU URRRR URLRR RUUUU\nRRRUD UUUUR ULDLU LLU"
+    },
+    "clone_3": {
+        "screenshotImgurID": "sE8YeMi",
+        "solution": "RDDLU LDDRR DLLLD LLULR DRDDL\nUUDDD"
+    },
+    "clone_4": {
+        "screenshotImgurID": "ZSF6zwf",
+        "solution": "LUUUR DDLDR DRURR RUUUL LLLLL\nULLDL LLLLD LUUUU DRRUU LLDDD\nLLLLD LLULL LDDDL LLDDD DLLUU"
+    },
+    "clone_5": {
+        "screenshotImgurID": "vIhVgDF",
+        "solution": "LLURR URDDD LDRRR LLLLL URRDR\nUUUUD UUUDD LLLLU UUURL"
+    },
+    "clone_6": {
+        "screenshotImgurID": "JYq9Uaq",
+        "solution": "LDDDR ULURR DRUUU URRDL ULUUU\nURULD LUUUU U"
+    },
+    "clone_7": {
+        "screenshotImgurID": "ktXOijD",
+        "solution": "RDLUU LURRD DDDLL DLRR"
+    },
+    "clone_8": {
+        "screenshotImgurID": "xcAollX",
+        "solution": "ULDDR UULUR RRRRL LDDDU DLLLL\nDDDRR LLLL"
+    },
+    "clone_9": {
+        "screenshotImgurID": "SpuTUfd",
+        "solution": "LDDRU RDDDL DRRRU RDDLD RRRRR\nDR"
+    },
+    "clone_10": {
+        "screenshotImgurID": "u1UFVGa",
+        "solution": "UULLD DDRRD DDDLD RURDL UUUUR\nULLLL"
+    },
+    "clone_11": {
+        "screenshotImgurID": "i6I1r0A",
+        "solution": "RDDDR RUURU LURRU ULDLD RRRRD\nDRRRD RRUUU UURRR DLDRR LLLLD\nDDLLU LUURU LLRDL DLUUR UUUL"
+    },
+    "clone_12": {
+        "screenshotImgurID": "RXxVRpd",
+        "solution": "LLLDD RLDDD RUULU RRRDR UUURU\nLLDDD LLURD DLDRR RRURD DDUUU\nUULLL LRRDR UUUUU"
+    },
+    "clone_13": {
+        "screenshotImgurID": "UIV8o4w",
+        "solution": "UURRR DDDRR LLLLL RDDDL LRRRR\nRRLLL DDDLL LLLDD R"
+    },
+    "clone_14": {
+        "screenshotImgurID": "2zK03I3",
+        "solution": "RRRRD LLLRR RRLDD DRRRR RURRU\nURRRU RRDRU RUURL DDLLL LDRUU\nRRRUR RUURR RURRD DR"
+    },
+    "clone_15": {
+        "screenshotImgurID": "9soF55Q",
+        "solution": "LUUUR DLDRR RDRUL LURRR RRRUU\nLDRDL LLLLL URDUL LLDRR DDRRU\nLDLUL URRRR RRURD DDUUL LLLLL\nL"
+    },
+    "clone_16": {
+        "screenshotImgurID": "6dYopnK",
+        "solution": "LDDDR URRUU UURRD LULDD DLURR\nDRULL LDDDR ULURR URUUU UURUL\nLRDDD DDD"
+    },
+    "clone_17": {
+        "screenshotImgurID": "2tDkP3u",
+        "solution": "RDRUL URLUU RDLUL DLDRR RRURD\nDLLDD DDRDD LLURR RRDRU UULLU\nLUURU U"
+    },
+    "clone_18": {
+        "screenshotImgurID": "hMeHmP0",
+        "solution": "DLLUR RRRDL UUURU RURUU UURDU\nLLLLD DLLUR RUULL"
+    },
+    "clone_19": {
+        "screenshotImgurID": "LoN5XeX",
+        "solution": "RUUUL DRDLL UULDD LDRUR DDRDL\nDLUUD DLURD RUUUU ULDRR DRUUR\nUL"
+    },
+    "clone_20": {
+        "screenshotImgurID": "yDyDzc1",
+        "solution": "UURRU LDDLL LDDDD LLURD DRDDL\nLDDLD RRURD URDLL LLDDD LL"
+    },
+    "clone_21": {
+        "screenshotImgurID": "kTHaZji",
+        "solution": "LLLDD DDRUR RDULL DRLUU RURDD\nRRRUU URULD DDDLL LDURR RUUUR\nULDDD DDLUU LULDD RRRUU URULD\nDDDLL LDURR RUUUR ULLLL ULDDD\nDRDLR RUUUU RULDD DDLLL DRRRU\nUUURU LLLLD LUDLU DLURR RULLD\nL"
+    },
+    "clone_22": {
+        "screenshotImgurID": "6vEcbi7",
+        "solution": "RDRDL LLLLD LULUR DDLLU LURRR\nRRURD URDRD LLLLR RDLUR ULLLL\nLULDD DUURR RRRRR LLLUU RDLDR\nRLUUU"
+    },
+    "clone_23": {
+        "screenshotImgurID": "1YAh15z",
+        "solution": "RRDRU DDDLL URDRU UUUUL URULU\nRURDD DDDDD RDLLR RUUUU URRDL\nULDDD LDRRR RUUUU RULRD DDDDD\nDDDDR DLLRR URRDLL RUU"
+    },
+    "clone_24": {
+        "screenshotImgurID": "9QxuYpC",
+        "solution": "RRRUL DLDDD RUUUR ULDDD LLDLU\nUULDD DRDLL LLDLU UUUUU LLLDD\nDDDDD DRDLL LLLDL UUUUU LLRDD\nDRULL LLRRR RRRLU UUUU"
+    },
+    "clone_25": {
+        "screenshotImgurID": "WzldapV",
+        "solution": "LLLUU URRDD DDDRR RDDDL DRRDD\nDRRDL LRUUU UURUL LLULD RRRRR\nUUUUU UUURR LLUUU UUU"
+    },
+    "transfer_1": {
+        "screenshotImgurID": "YxNmTvK",
+        "solution": "DRRRR RRRUL LLLLU LLDRU RDDDD\nDDRRR RRR"
+    },
+    "transfer_2": {
+        "screenshotImgurID": "zjekLPx",
+        "solution": "LUUUR DLDRR RLUUR DLDRU RDDLD\nRURRD LLDLL"
+    },
+    "transfer_3": {
+        "screenshotImgurID": "ccz4z0U",
+        "solution": "RDDDD DUULL LURRU RDDDD RDLUL\nDRDDL UUULL DD"
+    },
+    "transfer_4": {
+        "screenshotImgurID": "25pnEj0",
+        "solution": "LLURD RUURR DLDLU ULLUU RDDLD\nRURRR UULDD DRDLU ULULU URDDL\nDD"
+    },
+    "transfer_5": {
+        "screenshotImgurID": "0nHQ4st",
+        "solution": "RURDD DLLUU ULLDR URDDD DLDRR\nRDRUU ULLLL UURRR"
+    },
+    "transfer_6": {
+        "screenshotImgurID": "jmYUGA5",
+        "solution": "DDDLU URULR UUULD DRDLL LDLLL\nRRUUR"
+    },
+    "transfer_7": {
+        "screenshotImgurID": "WbhEZpZ",
+        "solution": "RRDLU LDDLL URRUR DDLLD RRURR\nRRLLD RRUUR ULLUL DDRDL LDLLL\nLRDL"
+    },
+    "transfer_8": {
+        "screenshotImgurID": "nVBbVIy",
+        "solution": "RDRUL LLUUU RDLDR UURRD LULDL\nDRRRD RRRRR RRU"
+    },
+    "transfer_9": {
+        "screenshotImgurID": "KQUrLxx",
+        "solution": "LLULD DRRRR DLLLU ULLLL DDDDR\nDURUU LDDDR RDDDD LLLLU LRUUU\nURRR"
+    },
+    "transfer_10": {
+        "screenshotImgurID": "XfPzOvH",
+        "solution": "LDLDR RUURD LUURU RDDDU UULLL\nLDRRR RURDD DLLDD RRRLL DRRUU\nRULLL LLULD DDRUR RDLUL DDDLL\nLRUUU UUURR"
+    },
+    "transfer_11": {
+        "screenshotImgurID": "LLO0CRA",
+        "solution": "DLLDR DRUUR RDLLL LLDDL RURDD\nLDRUU ULLDD DDDDL DD"
+    },
+    "transfer_12": {
+        "screenshotImgurID": "sY0AhsK",
+        "solution": "LDDRR RRDRU ULUUU LLLLL ULL"
+    },
+    "transfer_13": {
+        "screenshotImgurID": "EmrNZKP",
+        "solution": "RUUUL DDRDL RRRUU LLULD DRDLD\nLUULU RRRLL LLUUU LLRDD DRR"
+    },
+    "transfer_14": {
+        "screenshotImgurID": "hZTYg2v",
+        "solution": "LUUUR DDLDR DRRRU ULDRD LUUUU\nUUULL LLLDL LURRD DRURR ULDLL\nLUURD LDRDR UUDLU RDRRU ULDRD\nLDDUU UUULU RDRUU UUURU LRRRU\nUUUU"
+    },
+    "transfer_15": {
+        "screenshotImgurID": "PmuI3PY",
+        "solution": "URRRD LLULD DRDDL RUULD RRRUL\nL"
+    },
+    "transfer_16": {
+        "screenshotImgurID": "CvKle3R",
+        "solution": "RRRRU ULLLL LDDDD DLDDL DRRRU\nRDDLD RRLUL LLLLD RURRR"
+    },
+    "transfer_17": {
+        "screenshotImgurID": "9spwUUs",
+        "solution": "RRRRD DDLLU LUUUU UURUL LLDLU\nUUURU LLRDR RRURR RUUDL LDDL"
+    },
+    "transfer_18": {
+        "screenshotImgurID": "FpnazSo",
+        "solution": "UUURR DRDLU ULLDR DDURR DDLUU\nULLUU URRDD DLLLL UUU"
+    },
+    "transfer_19": {
+        "screenshotImgurID": "eWkoZOe",
+        "solution": "URRRD DDDLU RULLD LUURU LURRD\nRDDLD LUUUR ULLDD DLDDL UUURR\nRURRD LULDD DRDRU UURUL LLDDD\nLLDDD RRUUU LLLLD DDDDD DLLLL\nLLLLL L"
+    },
+    "transfer_20": {
+        "screenshotImgurID": "ijvchZ3",
+        "solution": "RRUUL DRDLU ULDRR DDDLU URULU\nLLLDD DDRUU ULURL URRDD DDDDR\nRUUUR RDDDR RUUU"
+    },
+    "transfer_21": {
+        "screenshotImgurID": "jg0tYWe",
+        "solution": "UULLU UURUU LDDDL DRRRR DRULU\nRRRRR DDRRU ULLDD LDLLL UUUUU\nUUURR RDDDR LDLUU DDD"
+    },
+    "transfer_22": {
+        "screenshotImgurID": "qOc2YeP",
+        "solution": "URULU LDRDL UULDD DDDDR DLULD\nRRRLU LDDDL UULL"
+    },
+    "transfer_23": {
+        "screenshotImgurID": "POzleuc",
+        "solution": "RDDDL ULLDU LLDRU RDURR DLULD\nDUURR RRRDD DDDDD LLLLL UURRR\nRDRUU UUURR UUURR RRULL LDLLU\nRRRRD LLLLL LUURD RRRDL LLUUR\nDDDDD LLDRR RURDD LDRRR DRRUU\nDDDLD RLUUU LLLUU LLLLL UUU"
+    },
+    "transfer_24": {
+        "screenshotImgurID": "SjbMKEW",
+        "solution": "RURRU LLULL DDRRU LULDD DLDRU\nRRRRU RDDLL LUULL DRRRR URDDD\nLDRLL LLDLL UURUR R"
+    },
+    "transfer_25": {
+        "screenshotImgurID": "lcJo7uv",
+        "solution": "DRRDR DLLUU RRULL ULDDD DRDLL\nLLLLL LRRRR RRRRD LLLLL LDLUR\nULLLL"
+    },
+    "transfer_26": {
+        "screenshotImgurID": "6KcFFiy",
+        "solution": "RRDRU UUULU RDRRD LDLUU LLLLD\nRDRUU LURRD RDLDL UURRR RDDDL\nLLLDL UUUUR RURUR RDLLU LLLDD"
+    },
+    "transfer_27": {
+        "screenshotImgurID": "qnMdLDL",
+        "solution": "LLLDL URRRD DDRRR RRUUU URRRD\nDDRRR ULLDD DLLLU UURUR DDDLD\nRRRRR R"
+    },
+    "transfer_28": {
+        "screenshotImgurID": "CjwHnnG",
+        "solution": "UULUL LLDDR DDRDD LUURU LULLL\nDDRDR RRDRR ULLDL ULULU URRRD\nRRRDD DDLUU LLDRR UDUUL"
+    },
+    "transfer_29": {
+        "screenshotImgurID": "CEmkGEc",
+        "solution": "URUUR DDDDR DLLLU UUUUL DDDDD\nDRDDD LLLRR UUURR LRUUL DRDLR\nR"
+    },
+    "open_1": {
+        "screenshotImgurID": "ouXgCt9",
+        "solution": "DDDLU UUULU RDDDR RDDDD D"
+    },
+    "open_2": {
+        "screenshotImgurID": "MyQW5Y8",
+        "solution": "LULDD RDLLR RURDR DLLLL RRRDD\nDD"
+    },
+    "open_3": {
+        "screenshotImgurID": "lRz3Zyr",
+        "solution": "RDRRU LLLDL DDRUU DDRRU URULL\nLLLDL LLLUD RRULU ULDRR RRRDD\nDDRRR DD"
+    },
+    "open_4": {
+        "screenshotImgurID": "oOAPOAn",
+        "solution": "DLLLD RRDRU UUULL LDRRD RRRDL\nDLUUU URULL LULDR DLRRR DDDDD\nDD"
+    },
+    "open_5": {
+        "screenshotImgurID": "UOECest",
+        "solution": "UURRR URDDD DDRLL ULDDD RDLDD\nDDDLD DRLUU RUULL DDUUU UUUUR\nRRRDR RR"
+    },
+    "open_6": {
+        "screenshotImgurID": "nBz2NEI",
+        "solution": "UUUUU UDDDD DRDDD UUUUL LLLRD\nRURUU LLULD UUR"
+    },
+    "open_7": {
+        "screenshotImgurID": "kOb1V98",
+        "solution": "DRRRR RRRLL LLLRU LLLDR LLRRR\nRUULL L"
+    },
+    "open_8": {
+        "screenshotImgurID": "0oHSt0o",
+        "solution": "RRRRL LLLLR RRRRR RLLLL LLUUU\nULDDR RULUU RDLDD DDDDL URRRR\nRRLLL UU"
+    },
+    "open_9": {
+        "screenshotImgurID": "PtH6lzx",
+        "solution": "RDDLL LULUU RDDRD LLUUU DRDLD\nLULUL UURRR RDLLL DLUUU DLRDR\nURULL LLLUU RRRRR UULDR DDDLL\nURRRU ULLDR DDLLU RR"
+    },
+    "open_10": {
+        "screenshotImgurID": "h7MHGmI",
+        "solution": "DLLUR URDDD RDLUU LDRDL LLDLU\nUUUUD DDDDL URRRU RDDUU RDLLL\nDLUUL UURDD DDLD"
+    },
+    "open_11": {
+        "screenshotImgurID": "ILHmrXe",
+        "solution": "LDDRR ULURR UR"
+    },
+    "open_12": {
+        "screenshotImgurID": "1tfEezK",
+        "solution": "UUUDD DDDDD DDRDL LDDDL DDDDD\nLDRUR DDLDR DDDRD DDDDL DRURD\nRU"
+    },
+    "flip_1": {
+        "screenshotImgurID": "7woj5cy",
+        "solution": "LLLDD DUURR RRDRR RRLUU LLLLD\nLULLU UUUUR"
+    },
+    "flip_2": {
+        "screenshotImgurID": "T3LJzDq",
+        "solution": "RDRLL ULULL ULLDD DLLLL LLRUU\nURRDD DDUUU RRRDD RRRRD RUD"
+    },
+    "flip_3": {
+        "screenshotImgurID": "2pfG45E",
+        "solution": "LDDRR DRRUD LULUR RRRLU LLDDD\nUUURD DDDDL LLL"
+    },
+    "flip_4": {
+        "screenshotImgurID": "WjPNRb3",
+        "solution": "LUUUR DLDRR RDRUR ULLRD RURUL\nDLLLL LLL"
+    },
+    "flip_5": {
+        "screenshotImgurID": "sBRORpq",
+        "solution": "RUULD LUUUU UUUUD LLULU RRRUR\nDDRDL LDLDL UULUR DDRUU UUUUU\nULUUR LDDRU LURDR ULURR RDRUU\nUUUUR RRR"
+    },
+    "flip_6": {
+        "screenshotImgurID": "ZYpHG97",
+        "solution": "LDDDL DLUUU UUUUL LURDR UURUL\nLLRRD RULUR RURDD DDRRR DD"
+    },
+    "flip_7": {
+        "screenshotImgurID": "S46manj",
+        "solution": "LDDLU UUUUU UUUUU DDDDU UUUUD\nUUUUU UUDDD DDUUU UUUUU UUUUD\nDDDDD DDDDD DLDDD DDDDL DDDDD\nDDDLD DDD"
+    },
+    "flip_8": {
+        "screenshotImgurID": "OTg5twv",
+        "solution": "DDDRR UUDDL DLLUL UUDDR DLDLL\nLLLLL RRRRR URRDL LLLLL RRRRR\nDDLLL LLLLD LLLLL LDLLL"
+    },
+    "flip_9": {
+        "screenshotImgurID": "Il9v116",
+        "solution": "DDDLL LURUU ULRDR UURUL LRRRU\nRDDUU ULLLL"
+    },
+    "flip_10": {
+        "screenshotImgurID": "DVeFApc",
+        "solution": "LUURU LLLRR RRRDR UUDDL LLLDL\nURULL RRRUU URRRD DDRDL LLDLU\nUUURU LLLRR RRRUR DLDRU RDDUU\nLLLLL LLL"
+    },
+    "flip_11": {
+        "screenshotImgurID": "FUlHxaz",
+        "solution": "RRDLL UUURD DRDLL LRRRR DDLUU\nLURRR DUURD DRDLL LLRRR URDDD\nRDLUU ULLLL LL"
+    },
+    "flip_12": {
+        "screenshotImgurID": "vx8vArZ",
+        "solution": "ULLDD DUUUR RRRDL DRRRL LLLLL\nDDLUL DRDLL"
+    },
+    "flip_13": {
+        "screenshotImgurID": "koTyj5o",
+        "solution": "RDDDR DLLUL DLDRL UUURR RRRDD\nDLL"
+    },
+    "flip_14": {
+        "screenshotImgurID": "CxIlot2",
+        "solution": "LDLUR UULUL DDDDU RDRUU DLULU\nRRRLL URDLD DRRUL LDLUU UUDDD\nDDDLU RRRRD RRULU LLDDD DDDDU\nUUUUU URRDD LRUUL LDDDD DDDUU\nUUURL UURRD DLLUR URDLD RURDD\nLLLDL"
+    },
+    "flip_15": {
+        "screenshotImgurID": "hOWdUpb",
+        "solution": "LUUUL DURRR DLLLL LLLDR UDLLU\nUUUUD DURUR RRRRU LDDDD LDRDR\nUUUUU DLLDR RRRRR RR"
+    },
+    "flip_16": {
+        "screenshotImgurID": "9eJdJqR",
+        "solution": "RDDLL DLUUU UUUDD DDRRD DDRRR\nLLURD DDDDD RDLLU LLDRR RRRUR\nDDLLL UUUUU UDDDD RRDDD RRRLL\nURDDD DDDDD DDDRD LLULL DRRRR\nRR"
+    },
+    "flip_17": {
+        "screenshotImgurID": "wPSohOQ",
+        "solution": "DRRRR ULLUU URLDL UULUL RRRLL\nLDLUU RRURD DRR"
+    },
+    "cycle_1": {
+        "screenshotImgurID": "fxaVqdq",
+        "solution": "RRRUU URRRR RRDDL LLLUU DDRRR\nRUURR RDDRR RRUUU"
+    },
+    "cycle_2": {
+        "screenshotImgurID": "ySp9B2G",
+        "solution": "RDDDR RRLRR RRLL"
+    },
+    "cycle_3": {
+        "screenshotImgurID": "wmCikcn",
+        "solution": "DDLRU UUUUU UUUDD DDDLL UULUU\nURRRU ULLLU LLLLL LLLLL LLLL"
+    },
+    "cycle_4": {
+        "screenshotImgurID": "ngyMOKb",
+        "solution": "RRRUU DLLLL LLLLL LLRRR RRUUD\nDLLLL LLLLR RRRRR UULL"
+    },
+    "cycle_5": {
+        "screenshotImgurID": "1hxqr0l",
+        "solution": "LLLDL UUUUU LURUU LUURL DDRDD\nDRRUL DLUUL URRRR RLLLL UDRRR\nRURR"
+    },
+    "cycle_6": {
+        "screenshotImgurID": "3p1ZaFP",
+        "solution": "RRRRR RRRRD DRRRR RRRRR DDRRR\nRRRRR RDDRR RRRRR RRDDR RRRRR\nRRRDL UU"
+    },
+    "cycle_7": {
+        "screenshotImgurID": "17ExNn4",
+        "solution": "LUUUR ULLDL UURUL LDLUU UUUUR\nULLLL DDRRR RDDDD DDDDD RRRRR\nRRRUU U"
+    },
+    "cycle_8": {
+        "screenshotImgurID": "H0ammmi",
+        "solution": "URUUU RUULD LULLD RRURD DDRDD\nLRRDD DRRUU LDRDL RRDDD UULLLL"
+    },
+    "cycle_9": {
+        "screenshotImgurID": "QKzEbiH",
+        "solution": "RRLUR LURUR DDDDL LLLUU URRRU\nRDDLD DRDDR"
+    },
+    "cycle_10": {
+        "screenshotImgurID": "HC8D9KL",
+        "solution": "RDDDL UDLLL URRDR UUUDL LLURR\nDRUUU RUULL LLL"
+    },
+    "cycle_11": {
+        "screenshotImgurID": "2NMHfyB",
+        "solution": "RRRRR RRRRL LLUUU UURRR RLLUU\nUDDDR RRRLL UUUU"
+    },
+    "cycle_12": {
+        "screenshotImgurID": "uTc8gU6",
+        "solution": "DDRRR DDLUR DDLUR DDLUR R"
+    },
+    "cycle_13": {
+        "screenshotImgurID": "rRmt9rR",
+        "solution": "DDDDD DDURR RRUUU UUUUU UUDDL\nLLDDD DDDRR RUUUU UUUUU DDDLL\nLLU"
+    },
+    "cycle_14": {
+        "screenshotImgurID": "sfWFXle",
+        "solution": "LDDRR RURRR DDDLL LUUUR ULLUL\nDDDUR RDLLL LULLD RRRRU RRDDD\nDDURD DDDDD"
+    },
+    "cycle_15": {
+        "screenshotImgurID": "NttCKCK",
+        "solution": "DDLLR LLLLL LDDUU LLRLL LLLLD\nDDUUU LLLRR LLLLL LDDDD UUUUU\nUU"
+    },
+    "cycle_16": {
+        "screenshotImgurID": "wqhBuNm",
+        "solution": "LUURU RDDDL LDLLU RRRLL LUURR\nURDDD RRRRD DULDD RRR"
+    },
+    "cycle_17": {
+        "screenshotImgurID": "eRKEc3d",
+        "solution": "DRRDD LUUUU UUURD DDDLL LULUR\nRLDDR URUUD LDLUU RULLL LLDRR\nRRULL LR"
+    },
+    "cycle_18": {
+        "screenshotImgurID": "CLlfEDG",
+        "solution": "URRRR DLLLL DLURR RRRDR ULLLL\nDLURR RRDLL URRRU ULUDD L"
+    },
+    "player_1": {
+        "screenshotImgurID": "pLkoJu4",
+        "solution": "LLLDD DRRDR URRDD"
+    },
+    "player_2": {
+        "screenshotImgurID": "ahYsfgr",
+        "solution": "DDRDL UULLL DDUUR RDDUU UL"
+    },
+    "player_3": {
+        "screenshotImgurID": "3H5GeXQ",
+        "solution": "RUUUU LLLLL DRDRD DLDDL LUU"
+    },
+    "player_4": {
+        "screenshotImgurID": "1EgFGUv",
+        "solution": "RUULL LRDDL RRRDD LLLUU RRRR"
+    },
+    "player_5": {
+        "screenshotImgurID": "S52T62I",
+        "solution": "LLDDD RRRRL LULLD RRRRL LULLD\nRRRRL LULLD RRRRL LLLL"
+    },
+    "player_6": {
+        "screenshotImgurID": "ckTaY2E",
+        "solution": "UURRU DLLLL UDRRU LDDDR UUUU"
+    },
+    "player_7": {
+        "screenshotImgurID": "QQUsL52",
+        "solution": "LDDUU UUDRR RUDDD DLUUU RDDDL\nUUURD DDUUR RDUUU RR"
+    },
+    "player_8": {
+        "screenshotImgurID": "pEAGNJL",
+        "solution": "DRRLD RLDRU ULLLL DRRRU LDLUR\nULRDD DD"
+    },
+    "player_9": {
+        "screenshotImgurID": "1PE4ivq",
+        "solution": "DLLRU ULLLL DLUUU RRRRR RLLLU\nL"
+    },
+    "player_10": {
+        "screenshotImgurID": "iEY5VgV",
+        "solution": "URRLD DDRUL LLLUL LDRRR ULDDD\nURRRU LLLLL LDRRR RRDR"
+    },
+    "player_11": {
+        "screenshotImgurID": "Jr6faB3",
+        "solution": "UULLD RRRRD DDLLL LUURL UURRR\nRDDLD LULUR RLLLD D"
+    },
+    "player_12": {
+        "screenshotImgurID": "pbehbWk",
+        "solution": "DDDRR LLULD RUULL URRRD LLLRR\nRRRUR RDULL DLLUR DLUUR DLLUR\nDDLLL URRRD LLLUR RRDLL LURRR\nDLLLU RRRDL LLL"
+    },
+    "player_13": {
+        "screenshotImgurID": "6RrufTr",
+        "solution": "RRUUU UDDLL LLLLL LUUUU UURRR\nRRDDD DDDDR RLLL"
+    },
+    "player_14": {
+        "screenshotImgurID": "jRvq7Pf",
+        "solution": "UURUL LULLL LDDDD DDRRR RDLLL\nLLRDD LLUUU UDRRR RRRUU DDD"
+    },
+    "player_15": {
+        "screenshotImgurID": "6OR84ZT",
+        "solution": "DDDDU RRRDD LDRRU ULLLL DLD"
+    },
+    "player_16": {
+        "screenshotImgurID": "wZF7At5",
+        "solution": "RRRRU UULLL RDRRR RRUUU LLLUR\nDDDDL UUURR RRDRR UUUUL LLRRR\nR"
+    },
+    "player_17": {
+        "screenshotImgurID": "nr5ysPP",
+        "solution": "DRRRR LLLRR RRLDL UULUR DDDDL\nLLLDL LURDR UULUR DDDLL LDLLU\nLDDDD UUURR RDLUU UULUL LDDLL\nRRRRR DRR"
+    },
+    "player_18": {
+        "screenshotImgurID": "l0wAFDm",
+        "solution": "LUULD DDDRU LURRD DRUUU UDDRR\nRDLLU RRDDL LL"
+    },
+    "player_19": {
+        "screenshotImgurID": "n6ugYlV",
+        "solution": "DDRDL LULDR RRURD RDLLL LDLUU\nULURR RR"
+    },
+    "player_20": {
+        "screenshotImgurID": "whh9Ajn",
+        "solution": "LLLDD RRUUU RRRUU UUURU LDLUU\nULURU RRRRU LLDLD DLDRR URDDL\nLLULD RDDR"
+    },
+    "player_21": {
+        "screenshotImgurID": "tBah8St",
+        "solution": "UULLL DDRUL DDRUL DDRUL DRR"
+    },
+    "player_22": {
+        "screenshotImgurID": "KWsIBCA",
+        "solution": "URRUU LLDRR UURUU RDDLD RUUUR"
+    },
+    "player_23": {
+        "screenshotImgurID": "BmVeZK5",
+        "solution": "LLLLU UURRR RUULL LUURU U"
+    },
+    "player_24": {
+        "screenshotImgurID": "x2Ct2PU",
+        "solution": "RRRUR RDDRD LLLUL RLDRU UUULL\nUURRD RLLU"
+    },
+    "possess_1": {
+        "screenshotImgurID": "9v206B3",
+        "solution": "DDLLL RRURR DLDLU UUUDR DDLUU\nUULL"
+    },
+    "possess_2": {
+        "screenshotImgurID": "83k5J0P",
+        "solution": "RRUUD DDDLU RLULD DDDUU RUULD\nDDDDR R"
+    },
+    "possess_3": {
+        "screenshotImgurID": "JSw3lY4",
+        "solution": "DDDLD DUDRR UULLD DRLUU RRDDU\nUUULU RRRRL LDDDU ULURR RRLR"
+    },
+    "possess_4": {
+        "screenshotImgurID": "kXSgVYr",
+        "solution": "LLLLR RURDU UUDLD DRUUL LURRU\nUUU"
+    },
+    "possess_5": {
+        "screenshotImgurID": "14XYcQF",
+        "solution": "LLLDR RULLL LULDR RRRDL UURDL\nRRRRU LLDRR RDRRU LLLLU LDDRR\nUULDR ULDDL LD"
+    },
+    "possess_6": {
+        "screenshotImgurID": "WVYif1D",
+        "solution": "DLLUL DDRDR UUULL URRDR UUUUU\nRRURR DDDL"
+    },
+    "possess_7": {
+        "screenshotImgurID": "SwtmbX3",
+        "solution": "DDRDL LUUUU LDDDD RULLL"
+    },
+    "possess_8": {
+        "screenshotImgurID": "EafkWM6",
+        "solution": "DRRUU URULD LULLD DDLLL DRRRR\nLLLUU UURRR DLULU UU"
+    },
+    "possess_9": {
+        "screenshotImgurID": "aG428ik",
+        "solution": "LURRR RRDLL LDRRR DLLLL UUULU\nRDRUR ULDRU RULU"
+    },
+    "possess_10": {
+        "screenshotImgurID": "vof0ztX",
+        "solution": "DRRUU LLLUR RRRUU LDLDR RRRLL\nDDDRD R"
+    },
+    "possess_11": {
+        "screenshotImgurID": "I8BaBec",
+        "solution": "RRUUL LDLUD LURUL LLDRU LLDLU\nU"
+    },
+    "possess_12": {
+        "screenshotImgurID": "yThyAeW",
+        "solution": "RUUUR RURDD DDRDL RDDDR DLDLU\nLLLDR RUUUU ULLLR RRRRR RRLLD\nDDDDD LUURD DLUUL UUR"
+    },
+    "possess_13": {
+        "screenshotImgurID": "xvFemVj",
+        "solution": "URRLL DDDDR UUUUR RLLLD DDURR\nDDRUL LDLLR RULLR ULDRU LDDRU\nUURUR RRLLL DLURR RRRD"
+    },
+    "possess_14": {
+        "screenshotImgurID": "FwVSxZ9",
+        "solution": "DDDRR RULLU LDDRD LLUUR RRRRR\nURRDL LDDDL DDLLU RDDRD DLUUU\nUURRR DLLUL DRDLL UUURR RDRRR\nURRDL DDDLL LDDRU ULDDD RDDLU\nUUULD RRRRL UURDU ULLLD DLDRR\nRRRRD RRRRD DD"
+    },
+    "possess_15": {
+        "screenshotImgurID": "LtFzx7F",
+        "solution": "LDDRR RDRUL URDDR UULUR RUULD\nDRULU RRRUU URR"
+    },
+    "possess_16": {
+        "screenshotImgurID": "e41AIEX",
+        "solution": "UULLL LLDLL DDDLL LUUUL UDDRR\nRDRUU UUUUL LRULL DDDDD DRRRD\nULLLL UUUUU UULLL LDDDL LUUU"
+    },
+    "possess_17": {
+        "screenshotImgurID": "3gvikUs",
+        "solution": "DLLDR URRRD DLLLD RRRUR RRDLL\nLDRRR URRRD LLLDR URRRD DDLLL\nDRRRR URUUL LLDDD LDDDR DDDDL\nLLLLL DDLLL LUUUU U"
+    },
+    "possess_18": {
+        "screenshotImgurID": "aCxIOfG",
+        "solution": "LUUUD DRLDD DRLDD DRLDD DURLD\nDDRLD DDUUR LLULD ULDU"
+    },
+    "possess_19": {
+        "screenshotImgurID": "EE89KMy",
+        "solution": "UURLL RRRDL LLRRR DLLLR RRDLD\nLUDLU RRULL DDLUU UU"
+    },
+    "possess_20": {
+        "screenshotImgurID": "RhPqoBG",
+        "solution": "DRURD LDRRL UURRD URRDL ULDRD\nLLULD DULLD DRUUD DDRUU UULRR\nRULLL DDLUR DDDD"
+    },
+    "possess_21": {
+        "screenshotImgurID": "3BKcRnk",
+        "solution": "RUUUR RDDRU URDRD RUUUR RDDDD\nDDDDD DRRDD DDDDD DD"
+    },
+    "possess_22": {
+        "screenshotImgurID": "D9vsDs9",
+        "solution": "RUUUL DDLDR RRRLL LUULL LRRUU\nLRDDD DRUUL UULUU LRDDR DDLLR\nRRRUU URRRU R"
+    },
+    "wall_1": {
+        "screenshotImgurID": "3HCKphi",
+        "solution": "DDRRR LLLDR ULDRU RRRUU"
+    },
+    "wall_2": {
+        "screenshotImgurID": "wULgmVF",
+        "solution": "ULLLL UURRR UULLD RRULL LDDDD\nRR"
+    },
+    "wall_3": {
+        "screenshotImgurID": "OCa7itR",
+        "solution": "LLLLU URRUL DRRUU LLLLD RRLDD\nDRR"
+    },
+    "wall_4": {
+        "screenshotImgurID": "FhxxTkF",
+        "solution": "DDDDR RRRLU LDLLU URURD D"
+    },
+    "wall_5": {
+        "screenshotImgurID": "RhpwKo7",
+        "solution": "LDDDD DRUUL LDRRU RDDLL LUURR\nRDLUU RDDDL LLURR RRRUU UULUL\nDDD"
+    },
+    "wall_6": {
+        "screenshotImgurID": "6Hbnx4H",
+        "solution": "LDRRU LDRUR DLLLD RRDRU RRRLL\nLULDD"
+    },
+    "wall_7": {
+        "screenshotImgurID": "mBu4IZ9",
+        "solution": "UUURR DDLLL LLURR RURDD LDLLL\nLRRRR DRULU URRDL LULDD"
+    },
+    "wall_8": {
+        "screenshotImgurID": "sMgMRu9",
+        "solution": "URRDL LLDDR DRRUU LLDRD RUULU\nRDRUU URULL ULLDR UUUUU LLDRU\nLDRUR DDLUL LRDDL L"
+    },
+    "wall_9": {
+        "screenshotImgurID": "uuAdzEv",
+        "solution": "DDLLL LURRD LURRD LUUUR DDDDD\nUULUR URRRR RDLLU RDLLU RDDDL\nUUUUU DRDLU ULDDD DDDDR RR"
+    },
+    "wall_10": {
+        "screenshotImgurID": "dJgTtVv",
+        "solution": "DLLLU LURRR ULLUL DDLDD DRRRR\nRRDRU UURLL DLURU URRRR RRRDD"
+    },
+    "wall_11": {
+        "screenshotImgurID": "sMWeEeD",
+        "solution": "UUULL DLDRU RDRDD DLLLL LRUUD\nRDLLU UURRR RDDLD DRULU RLLLL\nDLLLL ULDD"
+    },
+    "wall_12": {
+        "screenshotImgurID": "c6IrcmY",
+        "solution": "DRRUL DDRUU UURRR ULLLD DDDDL\nURULD LURUL DLURU LDULR UUURR\nRDDDD RRRDD"
+    },
+    "wall_13": {
+        "screenshotImgurID": "Su49PvF",
+        "solution": "DLLLU UDRRR RRRRL DLDDR UULLU\nRRRRU LDDDD UUUUR RDDDD RDLLL"
+    },
+    "wall_14": {
+        "screenshotImgurID": "9FU8PI5",
+        "solution": "DLURD RUULU RRRDL URDLD DDRUU\nUURUL LRRUR DDDDU UUULU LLLD"
+    },
+    "wall_15": {
+        "screenshotImgurID": "JXX3SNO",
+        "solution": "UURRR RDLUR DLDDD LLLUR DUURR\nULLLU RDLDR DRUUU"
+    },
+    "infinite_exit_1": {
+        "screenshotImgurID": "T46VJBB",
+        "solution": "RRRLL DDDUU DLLLL LLRRR RUULL\nLLU"
+    },
+    "infinite_exit_2": {
+        "screenshotImgurID": "qaP2eN6",
+        "solution": "DDDDD URRRU UUUUU LDDDD DDDDU\nURRUU UULDD LDDDD DRUUU UUUUL\nLLD"
+    },
+    "infinite_exit_3": {
+        "screenshotImgurID": "M7bBpOt",
+        "solution": "DDLLD RRRUU RDDDR"
+    },
+    "infinite_exit_4": {
+        "screenshotImgurID": "qISsgSE",
+        "solution": "UUULL URDDD DRRRU ULUUL DLURR\nDDRUU UR"
+    },
+    "infinite_exit_5": {
+        "screenshotImgurID": "cRKChuN",
+        "solution": "LLDDR RRRRR ULDRD DLLUR RUR"
+    },
+    "infinite_exit_6": {
+        "screenshotImgurID": "nD9KqHU",
+        "solution": "RUUUL ULURR RRRLL LLDDD DDDDD\nRUULL LLULD DDDDD DDDLU RURDD\nRD"
+    },
+    "infinite_exit_7": {
+        "screenshotImgurID": "TKfNIVT",
+        "solution": "RUUUU UDDDL DRRRR RDRUU UUULU\nUDDDL DRRUU RRRRR UUUUR R"
+    },
+    "infinite_exit_8": {
+        "screenshotImgurID": "NIG237i",
+        "solution": "LUURR URDDL DRUUU LLLLL LDURR\nURRRR RLLLL DLLLD DDUUU RRRRR\nRDDDR LLLLD"
+    },
+    "infinite_exit_9": {
+        "screenshotImgurID": "OkmlhGZ",
+        "solution": "ULLDL DRRRD RRLLR UURRR RDDDL\nDLUUU RULLL DLULU UDRRU URRRD\nDDDLD RURRR D"
+    },
+    "infinite_exit_10": {
+        "screenshotImgurID": "qvgft1J",
+        "solution": "DDRRD DDRRR RLLLD LUUUL UUDLL\nUULLL URDDD LDRRR URRLL LDDRR\nRRDD"
+    },
+    "infinite_exit_11": {
+        "screenshotImgurID": "ryg3k2G",
+        "solution": "RUULL ULDRD LLLRU UDDDD DRDRU\nUUUUU ULDLU URDLL LLLLL RRUUU\nUUURR RDDDD"
+    },
+    "infinite_exit_12": {
+        "screenshotImgurID": "hbRNZKX",
+        "solution": "DLLUU DDRRD DRRLR RURDD DDDLD\nRRRUR RDLUL LRRRD RUDRU RRDLL\nLURDL DRDRU UU"
+    },
+    "infinite_exit_13": {
+        "screenshotImgurID": "XwctAzr",
+        "solution": "DRRUR ULLUR RDRUU DLURR RRDRU\nUURUL LULDR RRULL LRDDD RDRDR\nDRD"
+    },
+    "infinite_exit_14": {
+        "screenshotImgurID": "bAwJkFT",
+        "solution": "RDDLL LULDU LLURR RURDL DRUUR\nDDDDD DRDLU LDRRD LULDD LD"
+    },
+    "infinite_exit_15": {
+        "screenshotImgurID": "CYLO4oc",
+        "solution": "LUUUL URRDD DDDDL ULURR DDRUU\nLURRR LLUUU ULUUR DRUUU UULLD\nDDDDD RRRRL LLUUU UUUUU UUUUR\nRRR"
+    },
+    "infinite_exit_16": {
+        "screenshotImgurID": "RpfL07R",
+        "solution": "DRDDR RRULL ULLDD RRUUU LDDLD\nULLDD RRRRU UUURD DDDDL DRRRL\nLLDRR RRLUU RDRDL LDRDR UUULU\nRR"
+    },
+    "infinite_exit_17": {
+        "screenshotImgurID": "P2FFsQq",
+        "solution": "LDDDR ULURR RRDLL DLUUU URRDD\nLDRRL LLLUU UUUDL UUU"
+    },
+    "infinite_exit_18": {
+        "screenshotImgurID": "sGIaEnY",
+        "solution": "DDRRD DDDRD DDRDL ULDDR DLLLU\nUDDDD DDDLD RRURD LLLDD LDRUR\nDDDDD LDRRR RLLUL DDDDL DRRRU\nULDDL DRURD DDDDD LDDRD DUU"
+    },
+    "infinite_enter_1": {
+        "screenshotImgurID": "o5y0Gal",
+        "solution": "LLLUU RRDDL LDRRU RDUDD DDDD"
+    },
+    "infinite_enter_2": {
+        "screenshotImgurID": "c9RRtLI",
+        "solution": "DDDLL LRUUU LDDDD D"
+    },
+    "infinite_enter_3": {
+        "screenshotImgurID": "Cui3yu9",
+        "solution": "RRRUU RULLL DRDRU ULURR DDRRL\nLUUUR R"
+    },
+    "infinite_enter_4": {
+        "screenshotImgurID": "rCvT9mf",
+        "solution": "UURDR DLLUU LDDDU RRRDL LULDD\nDD"
+    },
+    "infinite_enter_5": {
+        "screenshotImgurID": "kUJ3mhu",
+        "solution": "UULDL DRRUU RDDDU LLLDR RURDD\nDD"
+    },
+    "infinite_enter_6": {
+        "screenshotImgurID": "IjWXNgD",
+        "solution": "LLDRU RDURR DLULD DDDDR RRULL\nDLDDL DRRUR DDDUL LLDRU RDRRD\nLLDLU UUULU RRURD LDRRD D"
+    },
+    "infinite_enter_7": {
+        "screenshotImgurID": "1gD390T",
+        "solution": "LDDRD LULDR ULLDD RRRLU LDRRR\nUUUUL DDDRD LLDLL LLLUR DRRU"
+    },
+    "infinite_enter_8": {
+        "screenshotImgurID": "wexDcex",
+        "solution": "DDDLD DDUUL LDDLU UUDLL DDDLR\nLLLDL UU"
+    },
+    "infinite_enter_9": {
+        "screenshotImgurID": "FFJlwzi",
+        "solution": "LDDDR RUULL LLUUU DUULL LLUUU\nULULL DDRRD RRULL RLLUU L"
+    },
+    "infinite_enter_10": {
+        "screenshotImgurID": "KoUuQTQ",
+        "solution": "LUUUR DDDLD RUUUU RDDRR ULULD\nDDURR DLULD LDDRU UUULU RRRDR\nULLLL LDDDL LUULL"
+    },
+    "infinite_enter_11": {
+        "screenshotImgurID": "jMgwnqo",
+        "solution": "LUUUL DURRR DLLUL DDDLD RURDD\nDLDRD DLLUL LULLD RRRRR DDRDD\nDUUUU LURRD DLDDL DDRUU UUDLL\nDDDDL LL"
+    },
+    "infinite_enter_12": {
+        "screenshotImgurID": "0agisJR",
+        "solution": "LLLUU UUULU RURDD RDLLL LDDRR\nUDLLL DDRRL LRDDL LLDDR DDDLD\nRRDRU RULLU LDDDD RDRRD DLLLD\nDDLL"
+    },
+    "infinite_enter_13": {
+        "screenshotImgurID": "xM6FdwR",
+        "solution": "DDRRD LLLLL LUULL LLLLL DLULU\nLLLLD RRRRR LUURD LDRRR UU"
+    },
+    "infinite_enter_14": {
+        "screenshotImgurID": "8BzOVe7",
+        "solution": "RRRRU RDLDR LDLDR RRDRU LLLUU\nUURRD RDLLU LDDDL LURUL LULDL\nLRLUU RDLDR RL"
+    },
+    "infinite_enter_15": {
+        "screenshotImgurID": "7vxVQeu",
+        "solution": "RRDDL ULLDL DRUUR DDDRR RULLR\nRRDDD DDDDD LLLLU LLLLL UUDLD\nRRRRU RDDDL DDDDD LLLUL LLLLU\nLURDL LDLUU RUUUU ULLDD DRURD\nRDLLU LDDDR DDLLL LULLL LLDDR\nRRDDL DRRDL UULUR RDDDR UUURR\nRRUUL DRDLL LLRDL UUURU LLLLL\nLRLRU ULLDD LDRUR DLLDR DRRDD\nDLLLL LD"
+    },
+    "infinite_enter_16": {
+        "screenshotImgurID": "rnnwsfA",
+        "solution": "UURDL UURUL LUDDL UURUL DDDDL\nLDDUD DDDRR URUUU DRDLL DDLLD\nDDLUR RRLLL DDDRD LUUDR UULDD\nDDLLD DDDD"
+    },
+    "infinite_enter_17": {
+        "screenshotImgurID": "WrHbL4d",
+        "solution": "DDLLL LLURD DDDDD LDRRR RRDRU\nUUUUU URULD DDLLL LUURU LLURD\nDDRDL"
+    },
+    "infinite_enter_18": {
+        "screenshotImgurID": "Zq9KuX0",
+        "solution": "LLLLL LRRUR DDLDR RRRRR DRRLL\nULDDD RRRRL LLDDL LURUR DDDDL\nDRDUR LLLLL DDDDL LLLDL LRUUU\nLURRD RUDUU LLRDU RULDL URRUL\nLLDLU DLUUD RDDDD DLLLL LRRRR\nR"
+    },
+    "infinite_enter_19": {
+        "screenshotImgurID": "XbX76FC",
+        "solution": "LLUUR RRRUR DDLDR DUURR UUURR\nRUDUU LLLU"
+    },
+    "infinite_enter_20": {
+        "screenshotImgurID": "LuGg7ir",
+        "solution": "LLDLU RUUUU LUDDD RRUUU RDDDL\nDDRRR DRUUU UUU"
+    },
+    "multi_infinite_1": {
+        "screenshotImgurID": "CoqnRvJ",
+        "solution": "DDRRR RRRRR DLUUL URRRR RUULL\nLLL"
+    },
+    "multi_infinite_2": {
+        "screenshotImgurID": "GF5bNTI",
+        "solution": "RRRLU URRR"
+    },
+    "multi_infinite_3": {
+        "screenshotImgurID": "IOAMyUw",
+        "solution": "LLDLU URUUL DDRUU UULDR LLLUU\nUUUUR DDDLU RULLD LURU"
+    },
+    "multi_infinite_4": {
+        "screenshotImgurID": "cAK083v",
+        "solution": "LLLLL RRDDU UUUUU URUUD DDLDR\nURRDL UURLL LDLUU UUURU LLDLL\nLDRLU RRDLL"
+    },
+    "multi_infinite_5": {
+        "screenshotImgurID": "v3bSX1S",
+        "solution": "DDLUU ULURD RDRUU RULLR DDLUR\nDDDDD RDLLL LLRRR UUUUU UUDLU\nDLUU"
+    },
+    "multi_infinite_6": {
+        "screenshotImgurID": "e48Y34q",
+        "solution": "DDDLU LURRD DRUUR ULDDL LDDDD\nDUURR UUUUR UULLL DRURD URDRR\nLLULD DDDDD DDD"
+    },
+    "multi_infinite_7": {
+        "screenshotImgurID": "yIf2Hmc",
+        "solution": "RUUUR DRDLU LDDRD LULDD DDLDR\nRLUUU URRRU UUDLL LUDLL URRUD\nLLLUR RLLDD DRRRR RDRUU ULLLR\nRRUDD LLLLL URLUR RLDRR LURRL\nDRRRL LURDR RUDLL URRLL LLLLL\nLLDDD DDDDD D"
+    },
+    "multi_infinite_8": {
+        "screenshotImgurID": "o89CJf8",
+        "solution": "URRDD DRDLU LDDLD DRDDL DRRRR\nRRRUR DDDDD LLLDD DDDDR RRRRR\nRRDRU LURUR DDDDL DD"
+    },
+    "multi_infinite_9": {
+        "screenshotImgurID": "Zdu86qw",
+        "solution": "LLDDL LDDDD RUUUU UUURR RRURR\nUURUU ULLLL DRRRU UUUUR RURRU\nURUUU UURUU RULUL LDRRU URRRR\nUUUUU RUURU RUUUU ULLLL DLDDD\nDRLUU UUURR RULLU LDDRR RUURU\nLLUU"
+    },
+    "multi_infinite_10": {
+        "screenshotImgurID": "ysHL6Wu",
+        "solution": "DLLRR RDDLR UULLU ULRDD RRDDL\nLRRUU LLLLL RRRRR DDLLL LRRRR\nUULLU ULLLR RRRDD RDDLL LLLRR\nRRRUU LLUUU ULRRD DDDRD RDRUU\nU"
+    },
+    "multi_infinite_11": {
+        "screenshotImgurID": "60ZAUt2",
+        "solution": "LLLLL UUUDD RUUDD RUUDD RUUDD\nRUUDD RUUDD RUUDD RUUDD RUUDD\nRUURU UURRR RRRRR DDLLL LLLDR\nRRRRR RRRRR RUUUR R"
+    },
+    "challenge_1": {
+        "screenshotImgurID": "R1dFRx7",
+        "solution": "RUUUR RULUL DDDDR RDLLL LLRUL\nLURLU URRUR DDRRR DLUUL ULDDD\nDLDDL UULUU RDLDR RLUUR RDDLD\nDDRRU UUU"
+    },
+    "challenge_2": {
+        "screenshotImgurID": "V3SVUh5",
+        "solution": "DRRUU UUUDD DLLLU RLULL RDDDD\nLLURD RUURR UUULD RDLUL DDDLL\nLULLD RUURU ULDRD LLDDL ULURR\nDRUUU DDLLL ULLRR RDRUU LLLDD\nDDDDD RDDLD RDRUU RU"
+    },
+    "challenge_3": {
+        "screenshotImgurID": "JLwcKD8",
+        "solution": "UULLL URDRR RRRUU ULDRD DLLLL\nLURRD RRRUU RULDD DLLLU RDRRU\nUDDLL URDRU LRRUL LRRUL LLLLL\nLLRDD DL"
+    },
+    "challenge_4": {
+        "screenshotImgurID": "JlhLNdY",
+        "solution": "RRURD DDLDL LULUR DDRUU LURRL\nLURRD DRUUU UUUUL URRRR RRRUD\nLLLLL ULDDD LDRRU RDDDD DDDLD\nRRRRR D"
+    },
+    "challenge_5": {
+        "screenshotImgurID": "OnHLGki",
+        "solution": "DLULD RRURR DLULD RRDLL LULDD\nRDLDL LURRD LLLUL URRRR RURDD\nDUUUR DDDRD LLLUL DLDRL UUUUR\nRUULL"
+    },
+    "challenge_6": {
+        "screenshotImgurID": "m6DrZoj",
+        "solution": "DRRRD LDLUU UDRUR ULLDL UUUUU\nULLLL DRRUL RDDDD LUUUU LLLUL\nDDRR"
+    },
+    "challenge_7": {
+        "screenshotImgurID": "rzMDETn",
+        "solution": "URUUU RDLDR RDRUL LLDLD DRDDR\nLDLUL URURD LLLDD DLDDR DDRRL\nLDLUD DLLDD RDDUR LULUL UURUU\nUURDD LDDLD DRDDL URRRD RUUUL\nRULUL UL"
+    },
+    "challenge_8": {
+        "screenshotImgurID": "8byPDK7",
+        "solution": "URRRD LDLUR RUUUL DRDLL LDLUR\nRUULD RDLUU LLDRU RDRDL DLUUL\nURRRL LLLDD LLRRU RDDUL LLLDL\nLLLDL LL"
+    },
+    "challenge_9": {
+        "screenshotImgurID": "XUFZ1xs",
+        "solution": "ULDLU DRRRU URULR ULLUL DDLLD\nRRRLL DRLUU RDDLD RDRUU UUDDD\nRULDL UUULU RURDD DRDLL LLRRR\nUUULD RRDRU ULURR LDDDR RRRUL\nDDDDU UULLL RRRUR DDULL LDDDD\nURRRR UUUDL LDDDR RRRLU UUULL\nLRRRR DDDDL LDDDD"
+    },
+    "challenge_10": {
+        "screenshotImgurID": "OqGSKNv",
+        "solution": "DDRDL LLRRR RRUUU LLLLL ULDDD\nUUUUU RRRRR RLLLD DDDDD LLRRU\nUURUR RLLLD DDDLL LDDDD UUUUL\nURDRU DRULD LUULU RDDDD DRRRR\nRUUUU UDDDL LLLLL DDDLL LLRRR\nDRULU RRLUU URR"
+    },
+    "challenge_11": {
+        "screenshotImgurID": "DeV6IA7",
+        "solution": "RRRRU RUURR URRUU UURRR UUURU\nUUURU RUURU RURRR DDLLL LDDDD\nDDDRR RLUUU UUUDD DRRRR LUUUU\nUDDDR RRLUU UUUUD DDRRR LUUUU\nDDDRR RRLUU UUUUD DDLLD DDDDL\nLL"
+    },
+    "challenge_12": {
+        "screenshotImgurID": "4uScwMO",
+        "solution": "LLDRU ULLUR DRUUU DDRRD RUURR\nDDLL"
+    },
+    "challenge_13": {
+        "screenshotImgurID": "HTx4GUK",
+        "solution": "RURDR RRRRR LLRRR RRRRL LDDDD\nDUUDD DDDUU LLLRR LLLRR DDR"
+    },
+    "challenge_14": {
+        "screenshotImgurID": "wGvOP8i",
+        "solution": "LLLLL LLLRD DDLLL LLLLL LRRRR\nRRLLL DDDDD LDRUU UUUUL LLLLL\nLRRRR RRRRL LLDDD DDDUU UUUUL\nLLLLL LRRRR RRRRL LLDDD DDDRL\nUUUUU ULLLL LLLRR RRRRR RLLLD\nDDDDD"
+    },
+    "challenge_15": {
+        "screenshotImgurID": "zJ68ibg",
+        "solution": "RRRRD DUULU UURUL LLLLL DDDUU\nURUUU UULUL LLLLU UURLU URLDD\nLURRR RRRDD DDUUU ULLDL LLUUU\nLUDUL UUULR UURRD DDDLD D"
+    },
+    "challenge_16": {
+        "screenshotImgurID": "W1QyptS",
+        "solution": "DRRRU LDLUU UDLLU RRLUR DDRUU\nUURUL DLURR ULDDD DRRRD LULDR\nDLDLU UUUUL URDRU RULLU LDDDD\nDLDDR UUUUU LURRD DDDDD DDRRR\nRRRLL UUUUU UU"
+    },
+    "challenge_17": {
+        "screenshotImgurID": "l9WotXb",
+        "solution": "LLLLL UURUU RRRDL LLULU RRRDL\nLLDDR RRRUL LDLUL URRRR ULLLL\nDRRRR ULLDL LRRRD LLLUR RRRDL\nLLLUR RRRDD DDRRR RRDDD LLLLL\nLRURR DDDDD RRRRR RRRRD RRRRR\nDDRRR RRRRD RRRRR RRR"
+    },
+    "challenge_18": {
+        "screenshotImgurID": "JkNTqdV",
+        "solution": "DURRR URDLL LLDUR RRRUR RRDLL\nDURRU RDRRR DDRRR DDLLD DLLDL\nLLDUR RRDRU LLLLD URRRR DRRRU\nLLDLL UUURR RRRUU RRRRU UU"
+    },
+    "challenge_19": {
+        "screenshotImgurID": "Pd5IO38",
+        "solution": "DRDDR ULLLL LRRRR UDRUD DDUUL\nLDDDD DLLLL LRRUU UUDRR RULLL\nLDRDL LLLLR UUDRR RRDDL LLRUU\nURRRR"
+    },
+    "challenge_20": {
+        "screenshotImgurID": "q32fdsG",
+        "solution": "RRURR DRRUR L"
+    },
+    "challenge_21": {
+        "screenshotImgurID": "byXbwPy",
+        "solution": "UUULD DDLLL UUULL DDLLL UUR"
+    },
+    "challenge_22": {
+        "screenshotImgurID": "O9x65Si",
+        "solution": "RULUR RRRUL RDDLU UUUUR ULDDD\nDDDLL LLDRU UUUUU LURDD DDDRR\nUUDDD LDRRR RRURD LLLLL LLUUU\nRRRRR RURDL LLLLL LLDDD D"
+    },
+    "challenge_23": {
+        "screenshotImgurID": "Khmcf4i",
+        "solution": "UULLL UURUL DRULD RULDR ULDRU\nLDLUR RDLLU RRDDL LURDL URDRU\nLLDRR ULLDR RDULD URDUR DUUDD\nURDRR RUR"
+    },
+    "challenge_24": {
+        "screenshotImgurID": "PJ032Ep",
+        "solution": "UUUUU URUUU RURUU UUULL LLLDD\nDLUUL LLLLL LLDLU UDRLU UUUUU\nUDRUU URDLD UUUUU LLLLL LUULD\nDUURR RRRRL LLLDR URULL ULUUU\nUUULD RDDD"
+    },
+    "challenge_25": {
+        "screenshotImgurID": "4AmHlnL",
+        "solution": "RDDDD DRRRU UUUUR RLULD DDDDL\nDRUUU URDDD UUUUU LLULL LLLDD\nRRDDD LLUUR ULLLL ULDDR DLUL"
+    },
+    "challenge_26": {
+        "screenshotImgurID": "7s1ZOut",
+        "solution": "ULLUU DLDRU RDRDD LLUUU ULDDD\nRRRUR DDLDR RULLU UUULD DLURD\nDRUUU LLLDD RRDRU LDRLU UURRD\nDLRDD LLLUU URDDD LLD"
+    },
+    "challenge_27": {
+        "screenshotImgurID": "kTskeI5",
+        "solution": "ULLLD RRUUU LDDLD RDRRU DLLUR\nUUURR DLLRR DLULD LDRUU ULDDL\nDRRRR RRURR DDDLL UURRU RDDDD\nDDLDR URRDL LLDLL LLLLD DDDLU\nRRDRR UULDR DLULD DLDRR RRRRU\nRDDDD DLURR DRRUU LDRDL ULDDD\nLDRRU URUUU LDDRD LULDD LDRRR\nRRRRR URDDD DLDDR R"
+    },
+    "challenge_28": {
+        "screenshotImgurID": "FeKXuss",
+        "solution": "LLLUL DDDDR RURRR URUDL LUURR\nURRUU RRRRR RDDDD RRURR RURUU\nDDLLU URRUR RUURR RRRRD DDDRR\nRRD"
+    },
+    "challenge_29": {
+        "screenshotImgurID": "C7oAduB",
+        "solution": "LDDLD LDRRU URRRR DLLRR UULLU\nLDDDL DRRUU UULLL DRURD DDRDD\nRURUL LULDL DRRDR UURUL LULLL\nLDDRR UURDD UULLD DLDRR URRRD\nDLURU LULDD RDDLU LDLDR RRRRD\nRDRUR RDRUR RU"
+    },
+    "challenge_30": {
+        "screenshotImgurID": "5eb9Uvh",
+        "solution": "RDRUR UULDD LDRRD RULUR RDDRR\nRUUUU UUUUU LURDD RRRUU UUULU\nU"
+    },
+    "challenge_31": {
+        "screenshotImgurID": "0dk6E9V",
+        "solution": "RURRR ULDLL URRDR UUDLL ULLLD\nDLUUD RRRDR UULLL LULUU RRUUU\nLUUUU RULUU RRUUU LLUUR RRUUU\nLUURR UUULL LLLL"
+    },
+    "challenge_32": {
+        "screenshotImgurID": "0QmvExj",
+        "solution": "LLDDR RULDL URULD LUUUD DRRRR\nRDRUU DDDDL ULLUR URDDR DLLLL\nRRUUU UURRU U"
+    },
+    "challenge_33": {
+        "screenshotImgurID": "JqNbcew",
+        "solution": "LDDDR ULURR URDDR DDDLD LUUUL\nURLLU UUUUR RDRRR DDDDL URUUL\nDDRDL LLLLD LURRU UUULL UUUUU\nUUUUU RRDRU URULU LDDLD RRURR\nRRUUL LLLDL UUUUL URRRR DDDRU\nUUUUL URDDR RRDDD LLLLD LUUUU\nUUUUU UULLL ULLDL ULURR URDDL\nDDDDL LUUUU UUUUU LURRU RDDLD\nDDDLL UUUUU UUUUL URDRU UDDRU\nRRRRU RDLDR UUURD DDDDD"
+    },
+    "challenge_34": {
+        "screenshotImgurID": "ZftNLoO",
+        "solution": "RRRDR RLLUL LLLUU RUURU RRRRR\nDLLDL URULL LDLDL UULLL DRRRR\nDDDDD DLDLU ULLDR LDDRD RUUUR\nULDLU ULURL URUUR DDRDL ULDDL\nDRDRU RLLLL ULLLL DLDLU LURRR\nDRUUL UURDD LDRLD RDRUU L"
+    },
+    "challenge_35": {
+        "screenshotImgurID": "Mj58QR7",
+        "solution": "LLURR RRDRU LURLL LDDDD DRRRR\nRULLD RRRUR DDUUR DDRDL LRRRR\nRRURD LDRDR R"
+    },
+    "challenge_36": {
+        "screenshotImgurID": "f9nwjJV",
+        "solution": "LUURD DDDRU UURUU LLDLU DLURR\nRRDLD LUULL UURDD LDLUU UUUUD\nRRUDL LDRRR RURDD DDDLD RLLLL\nUUUUR ULDLU URDRU RUULL LLUUU\nRRURL DLULL DDDDD DDLDR RRRLL\nUUUUU UUULL LLUUU RRRRR UDLLL\nLULLL DDDDD DDLDR RRRRL LUUUU\nUUUUL LLLUU URRUR RLLDL ULLLL\nDDDDD DDLDR RRRRR LLUUU UUUUU\nLLLLU UURRR RRUU"
+    },
+    "challenge_37": {
+        "screenshotImgurID": "nFn6cBm",
+        "solution": "UUUUU RRRRR DRRUU ULLLU LDDDL\nUULUR RLUUU RRRDR RUUUL LURDL\nDLUUL LLDDR RDRUL UUUUU RRRDR\nRUUUL URDLL LDLUU UUUUD RRRRR\nDRRUU UUU"
+    },
+    "challenge_38": {
+        "screenshotImgurID": "OmE1F9D",
+        "solution": "DDLLD RDRDD LLLLL RRRRD RRRRU\nULUUD DDRDR DDLLL LLRRL LLURD\nDDDDR DDLUU UUUUU URULL LULDD\nRDRDD LLLLL LRRRR DRRRR UULUU\nRRUUU DLLLD DRRRL UURDL DRRDR\nRRRUU LUURR RRU"
+    },
+    "gallery_1": {
+        "screenshotImgurID": "W4N7Gsl",
+        "solution": "RRRUL ULDDR RDLLL LLLLL LDLRU\nRRDLU UUURU ULDDD DDDDD DLDDD\nUUURU ULDRR RRURR DLLLL LLLLD\nLLRRU RRDLU UUURU ULDDD LDRRR\nRRRR"
+    },
+    "gallery_2": {
+        "screenshotImgurID": "hoGFnvz",
+        "solution": "URRRD DDLUU LURRR RDRUR ULLLL\nUURDL DRRRU RRDLL LRULD RRRD"
+    },
+    "gallery_3": {
+        "screenshotImgurID": "Je4hzEl",
+        "solution": "LLDLD RURDD DDDDD RRRRD UURUL\nULDDL DRULL LLDDD DDDDU URULL\nLDLLL RRRRR URRR"
+    },
+    "priority_1": {
+        "screenshotImgurID": "U6x7Zp9",
+        "solution": "RRDDD LLDLU UDRRU URULL LULDL\nDRRRR DRUUR ULLLU UU"
+    },
+    "priority_2": {
+        "screenshotImgurID": "lpzyFLU",
+        "solution": "RRRUU LLULD LDRRU RDLDD LDDRU\nUURUL DLLDL LURRD RURUU U"
+    },
+    "priority_3": {
+        "screenshotImgurID": "GzH1hWF",
+        "solution": "DRRRR RRRRU UUUUU UULLL LLLLU\nLDDDD DDDDL DRRRR RRRRD RUUUU\nUUUUD DDRDL LULLL LLLLD DDDDD\nDDRRR RRRRU U"
+    },
+    "priority_4": {
+        "screenshotImgurID": "yFICJRW",
+        "solution": "RDDDL UDRRR ULLUU LDLDR RDRUU\nUUUDD DDDRU LLUUR DLLLD RRDRU\nUULUR DRRUL LLURD ULLLD RRRUL\nLLL"
+    },
+    "priority_5": {
+        "screenshotImgurID": "IfX24bG",
+        "solution": "UUULD UURLL DDRUU DRULD ULDLU\nLDDRU ULURU"
+    },
+    "priority_6": {
+        "screenshotImgurID": "T7a2EH6",
+        "solution": "LLURR DLURR DLDRU RDLDD LURUL\nRRULD LURUL DLURU LDRDD DLURU\nLULDD UULLL LL"
+    },
+    "priority_7": {
+        "screenshotImgurID": "wF0JtQN",
+        "solution": "RRRRD DDDLU UURDL UURUL LLDRD\nLLLUR DLLLU RURRD LDRRU RDDDL\nLLLLU LLDUR RRRDD DDDRR RRDLU\nUURDL UUURD RDLDR RRULD LURDD\nDLLUU UUURU ULRDD DDRRR RRDDD\nDRLDL URDDD LULUU RDLUU URDLU\nURDDD DDDLL L"
+    },
+    "priority_8": {
+        "screenshotImgurID": "MO7lXpy",
+        "solution": "RDDDL LURRD RULLL DLLUU URRRU\nRDLDD LLRDR ULUUU RRRDR RULLL\nURRRU LDDDD RDLLL LUURU ULDDR\nDLUUL RURDR DLLUL LLDDD RDDLU\nUURUU LLLLU URRRR URDD"
+    },
+    "priority_9": {
+        "screenshotImgurID": "qQULmJA",
+        "solution": "LLLUU RRRUR RRUUL LLDLL URRRR\nDDLLD URDDR DDRUU UUUDD DDLLD\nLLULL DRRUU UUULL DDDDR RRUUR\nULLUU RRDLU LDRDD DRRDD LLLLR\nRRUUU DLURD RRUUL"
+    },
+    "extrude_1": {
+        "screenshotImgurID": "AdobIKX",
+        "solution": "RRRRR RRLLR DDLLU UUUUU DDURR\nDDLLL LLLRL"
+    },
+    "extrude_2": {
+        "screenshotImgurID": "I80WIiE",
+        "solution": "RRRRR RRLLL DLUUU UDDDD LLRUR\nDLDDD UUUUL UURDD UUUD"
+    },
+    "extrude_3": {
+        "screenshotImgurID": "fFR797l",
+        "solution": "UULUR RDLDR UUURD DDDDL DRURD\nDDDDR RUUUU RR"
+    },
+    "extrude_4": {
+        "screenshotImgurID": "OhvrkIw",
+        "solution": "URUUL DDRDL LLLUU DRDDD ULLRR\nDRUUR ULLLL LLDDR RRD"
+    },
+    "extrude_5": {
+        "screenshotImgurID": "EDxT5V6",
+        "solution": "RDDLD LURUL LRUUL DRDDD LLURD\nRURUL LLLLL LLLLD LUURU LDDDD\nD"
+    },
+    "extrude_6": {
+        "screenshotImgurID": "f6dVlss",
+        "solution": "DRRRR RLLLL LUUUU UDDDD DRRRR\nRLLLL DLLUR RRDRR UUULD RURDL\nDRURD DDDLD RRURR DLLLD LLUUU\nRDLLL DLUDD RRRRR RRDDD DL"
+    },
+    "extrude_7": {
+        "screenshotImgurID": "DpQNjQj",
+        "solution": "LLLUU UUDRD LLLLD LUUUU UDRDD\nLLLUL DRRRU LURRR RRLLL LLLLD\nDDDRR RUUUU RRRRR LRUUU UURUU\nU"
+    },
+    "extrude_8": {
+        "screenshotImgurID": "QF96ZBv",
+        "solution": "DDLLL ULUUU LLULD DLLLU"
+    },
+    "inner_push_1": {
+        "screenshotImgurID": "V04uN6r",
+        "solution": "DLLDD RRRRR UULLL LLULR URRRU\nLDDRU LURDD DDR"
+    },
+    "inner_push_2": {
+        "screenshotImgurID": "RIiqPS4",
+        "solution": "DDDDU RRRRR RRUUU UUDRU RDULL\nLLLLD DDDDD URRRR RDRRR RDDDU\nLLLLL DL"
+    },
+    "inner_push_3": {
+        "screenshotImgurID": "qhcT33O",
+        "solution": "DDDRU LLLUU LURRR UUULL LURRR\nRLLDL LDDD"
+    },
+    "inner_push_4": {
+        "screenshotImgurID": "1OWfALH",
+        "solution": "LDDDD RRUUU RDDDL LLDLU URURD\nRDLLL LLLUU RRDLD LLUUU"
+    },
+    "inner_push_5": {
+        "screenshotImgurID": "Ja8AstJ",
+        "solution": "DLLLU RDLUU UUUUU UUUDL DRULD\nDDDUU UUUDD LDRLD RURRU RDLUU\nUU"
+    },
+    "inner_push_6": {
+        "screenshotImgurID": "bD88uHy",
+        "solution": "DDDDL URUUL LRUUL DRRDD DLURU\nLULLD RRDDD LLURD RURRU UULDR\nDLUUU UULLD RRDDD RDLLL LUU"
+    },
+    "inner_push_7": {
+        "screenshotImgurID": "1pbiOdt",
+        "solution": "DDDDR RUDRR ULDLU UUUUU UDLUD\nLLDDD LDDDD DRRRD DULDR RRRRL\nLLUUU RRRLL LLLUU UUURR RRRLD\nDDDRL DDDLL LLLLL LUUUL LRRRR"
+    },
+    "inner_push_8": {
+        "screenshotImgurID": "1EbyB2O",
+        "solution": "UUUUU UURUL LLDDD"
+    }
 }
