@@ -8,8 +8,8 @@ module.exports = {
     async execute(message, args, Discord, bot){
         let worldName = args.filter(arg => arg != '||').join('_').replaceAll('||', '').toLowerCase();
 
-        if (worldName == 'hell' || worldName == 'cup')
-            worldName = 'open_5';
+        if (worldName == 'hell')
+            worldName = 'cup';
 
         if (worldName in levels) {
             let levelLink = 'https://i.imgur.com/' + levels[worldName]["screenshotImgurID"] + '.png';
