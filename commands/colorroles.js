@@ -10,12 +10,16 @@ module.exports = {
         const yellowEmoji = '🟡';
         const orangeEmoji = '🟠';
         const purpleEmoji = '🟣';
+        const cyanEmoji = 'ppb_colorrole_cyan';
+        const pinkEmoji = 'ppb_colorrole_pink';
 
         const blueRole = '962686078001770546';
         const greenRole = '962686125779083284';
         const yellowRole = '962686220633264168';
         const orangeRole = '962686275939348521';
         const purpleRole = '962708664404312135';
+        const cyanRole = '968694919864655872';
+        const pinkRole = '968694724485586976';
 
         if(!rereg){
             let embed = new Discord.MessageEmbed()
@@ -28,6 +32,8 @@ module.exports = {
             messageEmbed.react(yellowEmoji);
             messageEmbed.react(orangeEmoji);
             messageEmbed.react(purpleEmoji);
+            messageEmbed.react(cyanEmoji);
+            messageEmbed.react(pinkEmoji);
         }
 
         bot.on('messageReactionAdd', async (reaction, user) => {
@@ -50,6 +56,12 @@ module.exports = {
                 }
                 if(reaction.emoji.name === purpleEmoji){
                     await reaction.message.guild.members.cache.get(user.id).roles.add(purpleRole);
+                }
+                if(reaction.emoji.name === cyanEmoji){
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(cyanRole);
+                }
+                if(reaction.emoji.name === pinkEmoji){
+                    await reaction.message.guild.members.cache.get(user.id).roles.add(pinkRole);
                 }
             } else {
                 return;
@@ -76,6 +88,12 @@ module.exports = {
                 }
                 if(reaction.emoji.name === purpleEmoji){
                     await reaction.message.guild.members.cache.get(user.id).roles.remove(purpleRole);
+                }
+                if(reaction.emoji.name === cyanEmoji){
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(cyanRole);
+                }
+                if(reaction.emoji.name === pinkEmoji){
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(pinkRole);
                 }
             }
         });
