@@ -122,6 +122,10 @@ bot.on('messageCreate', async function (message) {
                     if (command == 'solution') {
                         bot.commands.get('solution').execute(message, args, discord, bot);
                     }
+
+                    if(command == 'warn'){
+                        bot.commands.get('warn').execute(message, args, discord, bot);
+                    }
                 }
             }
         }
