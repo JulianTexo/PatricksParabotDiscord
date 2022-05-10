@@ -19,6 +19,7 @@ const ppbGuild = '958400479258366002';
 const logChannel = '959364753829019648';
 const logChannelOnServer = '962729280469614652';
 const customLevelChannel = '959123181774462987';
+const customWorldChannel = '962469093850628106';
 const faqChannel = '966285081108938802';
 
 const prefix = '!'
@@ -55,6 +56,22 @@ bot.on('ready', function () {
     bot.channels.cache.get(logChannel).send('Setup complete.');
 })
 
+async function getLevelFromCustomLevelChannel(message) {
+    for (let attachment of message.attachments.values()) {
+        [filename, filetype] = attachment.name.split('.');
+        if (filetype == 'txt') {
+            await message.startThread({
+                name: `${message.author.username}'s ${filename}`,
+                autoArchiveDuration: 'MAX',
+                type: 'GUILD_PUBLIC_THREAD',
+            })
+            .then(threadChannel => console.log(threadChannel))
+            .catch(console.error);
+            return;
+        }
+    }
+}
+
 bot.on('messageCreate', async function (message) {
     if (message.channel.type == 'DM' && !message.content.startsWith(prefix) && !message.author.bot) {
         message.reply('I\'m sorry I do not know what you want me to do. Please enter a valid command or type !help to get a list of commands.');
@@ -63,14 +80,7 @@ bot.on('messageCreate', async function (message) {
             actions.get('faqQuestionAdded').execute(message, discord, bot);
         } else {
             if (message.channel == customLevelChannel && message.attachments.size > 0) {
-                fileName = [...message.attachments][0][1].attachment.split('/').pop().split('.')[0]
-                await message.startThread({
-                    name: `${message.author.username}'s ${fileName}`,
-                    autoArchiveDuration: 60,
-                    type: 'GUILD_PUBLIC_THREAD',
-                })
-                    .then(threadChannel => console.log(threadChannel))
-                    .catch(console.error);
+                await getLevelFromCustomLevelChannel(message);
             } else {
                 const args = message.content.slice(prefix.length).split(/ +/);
                 const command = args.shift().toLowerCase();
