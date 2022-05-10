@@ -62,7 +62,7 @@ async function getLevelFromCustomLevelChannel(message) {
         if (filetype == 'txt') {
             await message.startThread({
                 name: `${message.author.username}'s ${filename}`,
-                autoArchiveDuration: 'MAX',
+                autoArchiveDuration: MAX,
                 type: 'GUILD_PUBLIC_THREAD',
             })
             .then(threadChannel => console.log(threadChannel))
