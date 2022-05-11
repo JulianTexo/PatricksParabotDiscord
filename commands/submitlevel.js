@@ -1,7 +1,18 @@
 module.exports = {
-    name: 'submitLevel',
+    name: 'submitlevel',
     description: 'Provides command to submit a level to the daily Level Challange',
     async execute(message, args, Discord, bot){
+        if (message.channel.type != 'DM') {
+            message.reply('Please only submit levels in direct messages to me. Your message and this message will be deleted in 10 seconds.')
+            .then(msg =>
+                setTimeout(() => {
+                    msg.delete();
+                    message.delete();
+                }, 10*1000)
+            );
+            return;
+        }
+        
         const rereg = (args[0] === "registerer");
         const verificationChannel = '962804055170773073';
         const archiveChannel = '962824195274833970';

@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'addColor',
+    name: 'addcolor',
     description: 'ads a smiley for reaction',
     async execute(message, args, Discord, bot){
         const smiley = message.args;

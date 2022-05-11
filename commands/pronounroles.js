@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'pronounRoles',
+    name: 'pronounroles',
     description: 'Sends a message for pronoun Roles',
     async execute(message, args, Discord, bot){
         const rereg = (args[0] === "registerer");

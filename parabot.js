@@ -49,17 +49,17 @@ bot.on('ready', function () {
     bot.channels.cache.get(logChannelOnServer).send("Registering Reaction Listener for reactionroles.").then(sent => {
         bot.commands.get('reactionrole').execute(sent, ["registerer"], discord, bot);
         bot.commands.get('colorroles').execute(sent, ["registerer"], discord, bot);
-        bot.commands.get('submitLevel').execute(sent, ["registerer"], discord, bot);
-        bot.commands.get('pronounRoles').execute(sent, ["registerer"], discord, bot);
+        bot.commands.get('submitlevel').execute(sent, ["registerer"], discord, bot);
+        bot.commands.get('pronounroles').execute(sent, ["registerer"], discord, bot);
     });
     checkstreaming(bot);
     bot.channels.cache.get(logChannel).send('Setup complete.');
 })
 
-async function getLevelFromCustomLevelChannel(message) {
+async function getNameFromCustomChannel(message, targetFiletype) {
     for (let attachment of message.attachments.values()) {
         [filename, filetype] = attachment.name.split('.');
-        if (filetype == 'txt') {
+        if (filetype == targetFiletype) {
             await message.startThread({
                 name: `${message.author.username}'s ${filename}`,
                 autoArchiveDuration: 60,
@@ -72,72 +72,29 @@ async function getLevelFromCustomLevelChannel(message) {
     }
 }
 
-bot.on('messageCreate', async function (message) {
-    if (message.channel.type == 'DM' && !message.content.startsWith(prefix) && !message.author.bot) {
+bot.on('messageCreate', async function(message){
+    if(message.channel.type == 'DM' && !message.content.startsWith(prefix) && !message.author.bot){
         message.reply('I\'m sorry I do not know what you want me to do. Please enter a valid command or type !help to get a list of commands.');
-    } else {
-        if (message.channel == faqChannel) {
-            actions.get('faqQuestionAdded').execute(message, discord, bot);
-        } else {
-            if (message.channel == customLevelChannel && message.attachments.size > 0) {
-                await getLevelFromCustomLevelChannel(message);
-            } else {
-                const args = message.content.slice(prefix.length).split(/ +/);
-                const command = args.shift().toLowerCase();
-                if (!message.content.startsWith('!') || message.author.bot) {
-                    return;
-                } else {
-                    if (command == 'reactionrole') {
-                        bot.commands.get('reactionrole').execute(message, args, discord, bot);
-                    }
-                    if (command == 'colorroles') {
-                        bot.commands.get('colorroles').execute(message, args, discord, bot);
-                    }
-                    if (command == 'pronounroles') {
-                        bot.commands.get('pronounRoles').execute(message, args, discord, bot);
-                    }
-                    if (command == 'addcolor') {
-                        bot.commands.get('addColor').execute(message, args, discord, bot);
-                    }
-                    if (command == 'submitlevel') {
-                        if (message.channel.type == 'DM') {
-                            bot.commands.get('submitLevel').execute(message, args, discord, bot);
-                        } else {
-                            message.reply('Please only submit levels in direct messages to me. Your message and this message will be deleted in 10 seconds.').then(msg =>
-                                setTimeout(() => {
-                                    msg.delete();
-                                    message.delete();
-                                }, 10 * 1000)
-                            )
-                        }
-                    }
-                    if (command == 'help') {
-                        bot.commands.get('help').execute(message, args, discord, bot);
-                    }
-                    if (command == 'dm') {
-                        bot.commands.get('dm').execute(message, args, discord, bot);
-                    }
-                    if (command == 'modmessage') {
-                        bot.commands.get('modmessage').execute(message, args, discord, bot);
-                    }
-                    if (command == 'answer') {
-                        bot.commands.get('answer').execute(message, args, discord, bot);
-                    }
-                    if (command == 'restart') {
-                        bot.commands.get('restart').execute(message, args, discord, bot);
-                    }
-                    if (command == 'remind') {
-                        bot.commands.get('remind').execute(message, args, discord, bot);
-                    }
-                    if (command == 'solution') {
-                        bot.commands.get('solution').execute(message, args, discord, bot);
-                    }
+    }
 
-                    if(command == 'warn'){
-                        bot.commands.get('warn').execute(message, args, discord, bot);
-                    }
-                }
-            }
+    else if(message.channel == customLevelChannel && message.attachments.size > 0){
+        await getNameFromCustomChannel(message, "txt");
+    }
+
+    else if(message.channel == customWorldChannel && message.attachments.size > 0){
+        await getNameFromCustomChannel(message, "zip");
+    }
+
+    else if(!message.content.startsWith('!') || message.author.bot){
+        return;
+    }
+
+    else {
+        const args = message.content.slice(prefix.length).split(/ +/);
+        const command = args.shift().toLowerCase();
+
+        if (bot.commands.has(command)) {
+            bot.commands.get(command).execute(message, args, discord, bot);
         }
     }
 })
