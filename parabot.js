@@ -58,7 +58,10 @@ bot.on('ready', function () {
 
 async function getNameFromCustomChannel(message, targetFiletype) {
     for (let attachment of message.attachments.values()) {
-        [filename, filetype] = attachment.name.split('.');
+        const lastIndex = attachment.name.lastIndexOf('.');
+        const filename = attachment.name.slice(0, lastIndex);
+        const filetype = attachment.name.slice(lastIndex+1);
+
         if (filetype == targetFiletype) {
             await message.startThread({
                 name: `${message.author.username}'s ${filename}`,
