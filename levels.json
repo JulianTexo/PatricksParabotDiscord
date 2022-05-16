@@ -9,11 +9,11 @@
     "extrude": {"screenshotImgurID": "PzDYI83"},
     "flip": {"screenshotImgurID": "wPBpYwM"},
     "gallery": {"screenshotImgurID": "DAxaLG1"},
-    "infinite enter": {"screenshotImgurID": "4DSrM9x"},
-    "infinite exit": {"screenshotImgurID": "o30vIUS"},
-    "inner push": {"screenshotImgurID": "3s0WXIl"},
+    "infinite_enter": {"screenshotImgurID": "4DSrM9x"},
+    "infinite_exit": {"screenshotImgurID": "o30vIUS"},
+    "inner_push": {"screenshotImgurID": "3s0WXIl"},
     "intro": {"screenshotImgurID": "iRJekbJ"},
-    "multi infinite": {"screenshotImgurID": "5gmkvSe"},
+    "multi_infinite": {"screenshotImgurID": "5gmkvSe"},
     "open": {"screenshotImgurID": "zMjSTjU"},
     "player": {"screenshotImgurID": "aPmqOZF"},
     "possess": {"screenshotImgurID": "yeiZWEg"},
@@ -23,8 +23,6 @@
     "swap": {"screenshotImgurID": "ckqIpfa"},
     "transfer": {"screenshotImgurID": "b5nta9t"},
     "wall": {"screenshotImgurID": "EsYhICI"},
-    
-    "cup": {"screenshotImgurID": "QgxfWdk"},
 
     "intro_1": {
         "screenshotImgurID": "F0j0UfX",
